@@ -1,15 +1,13 @@
 {
     "csharp.format.enable": false,
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "git.autofetch": true,
-    "window.zoomLevel": -1.5,
+    "window.zoomLevel": -1.2,
     "explorer.confirmDelete": false,
     "html.format.wrapLineLength": 0,
     "files.autoSave": "onWindowChange",
     "editor.fontSize": 13,
     "editor.cursorStyle": "block",
     "editor.cursorBlinking": "solid",
-    "workbench.colorTheme": "Solarized Dark",
     "workbench.editor.tabCloseButton": "left",
     "workbench.startupEditor": "newUntitledFile",
     "window.title": "${dirty}${activeEditorShort}${separator}${rootPath}",
@@ -29,4 +27,5 @@
     "markdown.preview.fontSize": 13,
     "extensions.ignoreRecommendations": true,
     "telemetry.enableTelemetry": false,
+    "git.confirmSync": false,
 }
