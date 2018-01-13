@@ -1,0 +1,8 @@
+[user]
+	name = l7ssha
+	fullname = Szymon Uglis
+	email = szymon.uglis@hotmail.com
+[credential]
+	helper = cache
+[core]
+	autocrlf = input
