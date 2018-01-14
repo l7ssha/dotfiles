@@ -24,21 +24,13 @@ antigen theme minimal
 # Tell Antigen that you're done.
 antigen apply
 
-# Path
-path+=('/opt/dotnet')
-path+=('/opt/visual-studio-code-insiders/bin')
-
-# Aliases
-alias cls=clear
-alias ls=ls++
-alias code=code-insiders
-alias npm='sudo npm --unsafe-perm'
-#alias dotnet='sudo dotnet'
+# Load all file in directory
+run-parts ~/.zsh
 
 # Tmux auto attach
-if [[ "$TERM" != "screen" ]] && 
+if [[ "$TERM" != "screen" ]] &&
         [[ "$SSH_CONNECTION" == "" ]]; then
-    # Attempt to discover a detached session and attach 
+    # Attempt to discover a detached session and attach
     # it, else create a new session
 
     WHOAMI=$(whoami)
