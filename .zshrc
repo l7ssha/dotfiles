@@ -24,8 +24,13 @@ antigen theme minimal
 # Tell Antigen that you're done.
 antigen apply
 
-# Load all file in directory
-run-parts ~/.zsh
+# Autoload
+setopt EXTENDED_GLOB
+for file in ~/.zsh/*.zsh; do
+    if [[ -e $file ]]; then
+        . $file
+    fi
+done
 
 # Tmux auto attach
 if [[ "$TERM" != "screen" ]] &&
