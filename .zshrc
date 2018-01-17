@@ -17,6 +17,7 @@ antigen bundle bundler
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-completions
+antigen bundle facetframer/zshnip
 
 # Load the theme.
 antigen theme minimal
@@ -31,25 +32,6 @@ for file in ~/.zsh/*.zsh; do
         . $file
     fi
 done
-
-# Tmux auto attach
-if [[ "$TERM" != "screen" ]] &&
-        [[ "$SSH_CONNECTION" == "" ]]; then
-    # Attempt to discover a detached session and attach
-    # it, else create a new session
-
-    WHOAMI=$(whoami)
-    if tmux has-session -t $WHOAMI 2>/dev/null; then
-        tmux -2 attach-session -t $WHOAMI
-    else
-        tmux -2 new-session -s $WHOAMI
-    fi
-else
-    MOTD=/etc/motd.tcl
-    if [ -f $MOTD ]; then
-        $MOTD
-    fi
-fi
 
 # Commands
 cd ~
