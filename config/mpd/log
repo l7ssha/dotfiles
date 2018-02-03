@@ -1,0 +1,2222 @@
+Feb 03 18:08 : exception: Failed to open /home/l7ssha/.config/mpd/state: No such file or directory
+Feb 03 18:08 : exception: Failed to access /home/l7ssha/Music: No such file or directory
+Feb 03 18:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 18:09 : client: [0] opened from [::1]:59544
+Feb 03 18:10 : client: [0] closed
+Feb 03 18:10 : client: [1] opened from [::1]:59548
+Feb 03 18:10 : client: [1] closed
+Feb 03 18:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 18:11 : client: [0] opened from [::1]:59554
+Feb 03 18:12 : client: [0] closed
+Feb 03 18:13 : avahi: Initializing interface
+Feb 03 18:13 : avahi: Client changed to state 101
+Feb 03 18:13 : avahi: Client is CONNECTING
+Feb 03 18:13 : state_file: Loading state file /home/l7ssha/.config/mpd/state
+Feb 03 18:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 18:14 : client: [0] opened from [::1]:59578
+Feb 03 18:14 : client: [0] process command "status"
+Feb 03 18:14 : client: [0] command returned 0
+Feb 03 18:14 : client: [0] process command "plchanges "0""
+Feb 03 18:14 : client: [0] command returned 0
+Feb 03 18:14 : client: [0] process command "outputs"
+Feb 03 18:14 : client: [0] command returned 0
+Feb 03 18:14 : client: [0] process command "decoders"
+Feb 03 18:14 : client: [0] command returned 0
+Feb 03 18:14 : client: [0] process command "outputs"
+Feb 03 18:14 : client: [0] command returned 0
+Feb 03 18:14 : client: [0] process command "outputs"
+Feb 03 18:14 : client: [0] command returned 0
+Feb 03 18:14 : client: [0] process command "idle"
+Feb 03 18:14 : client: [0] command returned 1
+Feb 03 18:14 : client: [0] process command "lsinfo """
+Feb 03 18:14 : client: [0] command returned 0
+Feb 03 18:14 : client: [0] process command "idle"
+Feb 03 18:14 : client: [0] command returned 1
+Feb 03 18:14 : client: [0] process command "clear"
+Feb 03 18:14 : client: [0] command returned 0
+Feb 03 18:14 : client: [0] process command "idle"
+Feb 03 18:14 : client: [0] command returned 1
+Feb 03 18:14 : client: [0] process command "status"
+Feb 03 18:14 : client: [0] command returned 0
+Feb 03 18:14 : client: [0] process command "plchanges "2""
+Feb 03 18:14 : client: [0] command returned 0
+Feb 03 18:14 : client: [0] process command "idle"
+Feb 03 18:14 : client: [0] command returned 1
+Feb 03 18:14 : client: [0] closed
+Feb 03 18:14 : state_file: Saving state file /home/l7ssha/.config/mpd/state
+Feb 03 18:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 18:16 : client: [1] opened from [::1]:59636
+Feb 03 18:16 : client: [1] process command "status"
+Feb 03 18:16 : client: [1] command returned 0
+Feb 03 18:16 : client: [1] process command "plchanges "0""
+Feb 03 18:16 : client: [1] command returned 0
+Feb 03 18:16 : client: [1] process command "outputs"
+Feb 03 18:16 : client: [1] command returned 0
+Feb 03 18:16 : client: [1] process command "decoders"
+Feb 03 18:16 : client: [1] command returned 0
+Feb 03 18:16 : client: [1] process command "outputs"
+Feb 03 18:16 : client: [1] command returned 0
+Feb 03 18:16 : client: [1] process command "outputs"
+Feb 03 18:16 : client: [1] command returned 0
+Feb 03 18:16 : client: [1] process command "idle"
+Feb 03 18:16 : client: [1] command returned 1
+Feb 03 18:16 : client: [1] process command "lsinfo """
+Feb 03 18:16 : client: [1] command returned 0
+Feb 03 18:16 : client: [1] process command "idle"
+Feb 03 18:16 : client: [1] command returned 1
+Feb 03 18:17 : client: [1] process command "update "/""
+Feb 03 18:17 : update: spawned thread for update job id 1
+Feb 03 18:17 : update: starting
+Feb 03 18:17 : client: [1] command returned 0
+Feb 03 18:17 : client: [1] process command "idle"
+Feb 03 18:17 : client: [1] command returned 1
+Feb 03 18:17 : client: [1] process command "status"
+Feb 03 18:17 : client: [1] command returned 0
+Feb 03 18:17 : client: [1] process command "idle"
+Feb 03 18:17 : client: [1] command returned 1
+Feb 03 18:17 : update: reading Unlike Pluto/Unlike Pluto - No Scrubs ft. Joanna Jones (Cover).flac
+Feb 03 18:17 : update: added Unlike Pluto/Unlike Pluto - No Scrubs ft. Joanna Jones (Cover).flac
+Feb 03 18:17 : update: reading Unlike Pluto/Unlike Pluto - Someone New (feat. Desi Valentine) [Monstercat Release].flac
+Feb 03 18:17 : update: added Unlike Pluto/Unlike Pluto - Someone New (feat. Desi Valentine) [Monstercat Release].flac
+Feb 03 18:17 : update: reading Unlike Pluto/Unlike Pluto - Sweet (feat. Mister Blonde) [Monstercat Release].flac
+Feb 03 18:17 : update: added Unlike Pluto/Unlike Pluto - Sweet (feat. Mister Blonde) [Monstercat Release].flac
+Feb 03 18:17 : update: reading Unlike Pluto/Unlike Pluto - Everything Black (feat. Mike Taylor).flac
+Feb 03 18:17 : update: added Unlike Pluto/Unlike Pluto - Everything Black (feat. Mike Taylor).flac
+Feb 03 18:17 : update: reading Unlike Pluto/Aryay - Overwhelmed (Unlike Pluto Remix).flac
+Feb 03 18:17 : update: added Unlike Pluto/Aryay - Overwhelmed (Unlike Pluto Remix).flac
+Feb 03 18:17 : update: reading Unlike Pluto/Unlike Pluto - Waiting For You (feat. Joanna Jones) [Monstercat Release].flac
+Feb 03 18:17 : update: added Unlike Pluto/Unlike Pluto - Waiting For You (feat. Joanna Jones) [Monstercat Release].flac
+Feb 03 18:17 : update: reading Unlike Pluto/Unlike Pluto - Worst In Me (Official Lyric Video).flac
+Feb 03 18:17 : update: added Unlike Pluto/Unlike Pluto - Worst In Me (Official Lyric Video).flac
+Feb 03 18:17 : update: reading Unlike Pluto/Twenty One Pilots - Ride (Unlike Pluto remix).flac
+Feb 03 18:17 : update: added Unlike Pluto/Twenty One Pilots - Ride (Unlike Pluto remix).flac
+Feb 03 18:17 : update: reading Electro/Imagine Dragons - Believer (Audio).flac
+Feb 03 18:17 : update: added Electro/Imagine Dragons - Believer (Audio).flac
+Feb 03 18:17 : update: reading Electro/Dwayne Johnson - You're Welcome (Krysiek remix).flac
+Feb 03 18:17 : update: added Electro/Dwayne Johnson - You're Welcome (Krysiek remix).flac
+Feb 03 18:17 : update: reading Electro/METR - Down [JompaMusic Release].flac
+Feb 03 18:17 : update: added Electro/METR - Down [JompaMusic Release].flac
+Feb 03 18:17 : update: reading Electro/Vanic x Aquilo - Losing You.flac
+Feb 03 18:17 : update: added Electro/Vanic x Aquilo - Losing You.flac
+Feb 03 18:17 : update: reading Electro/Dirtyphonics  Bassnectar - Watch Out (feat. Ragga Twins).flac
+Feb 03 18:17 : update: added Electro/Dirtyphonics  Bassnectar - Watch Out (feat. Ragga Twins).flac
+Feb 03 18:17 : update: reading Electro/Eminem - The Real Slim Shady (Deficio Remix).flac
+Feb 03 18:17 : update: added Electro/Eminem - The Real Slim Shady (Deficio Remix).flac
+Feb 03 18:17 : update: reading Electro/Coyote Kisses - Six Shooter.flac
+Feb 03 18:17 : update: added Electro/Coyote Kisses - Six Shooter.flac
+Feb 03 18:17 : update: reading Electro/Lucky Star (Commercial Club Crew Remix).flac
+Feb 03 18:17 : update: added Electro/Lucky Star (Commercial Club Crew Remix).flac
+Feb 03 18:17 : update: reading Electro/Skan  DJ Ride Feat. M.I.M.E - One Way Trip.flac
+Feb 03 18:17 : update: added Electro/Skan  DJ Ride Feat. M.I.M.E - One Way Trip.flac
+Feb 03 18:17 : update: reading Electro/Martin Garrix ft. Dua Lipa - Scared To Be Lonely (Beau Collins Remix).flac
+Feb 03 18:17 : update: added Electro/Martin Garrix ft. Dua Lipa - Scared To Be Lonely (Beau Collins Remix).flac
+Feb 03 18:17 : update: reading Electro/Satchmo - LOVE [JompaMusic Release].flac
+Feb 03 18:17 : update: added Electro/Satchmo - LOVE [JompaMusic Release].flac
+Feb 03 18:17 : update: reading Electro/Hellberg - The Girl (feat. Cozi Zuehlsdorff) [Monstercat Release].flac
+Feb 03 18:17 : update: added Electro/Hellberg - The Girl (feat. Cozi Zuehlsdorff) [Monstercat Release].flac
+Feb 03 18:17 : update: reading Electro/Two Feet - Go Fck Yourself [Bass Boosted].flac
+Feb 03 18:17 : update: added Electro/Two Feet - Go Fck Yourself [Bass Boosted].flac
+Feb 03 18:17 : update: reading Electro/Bittersweet (feat. Lonemoon  Miss Lina).flac
+Feb 03 18:17 : update: added Electro/Bittersweet (feat. Lonemoon  Miss Lina).flac
+Feb 03 18:17 : update: reading Electro/Chime - Wait For Me.flac
+Feb 03 18:17 : update: added Electro/Chime - Wait For Me.flac
+Feb 03 18:17 : update: reading Electro/Vanic X Machineheart - Circles.flac
+Feb 03 18:17 : update: added Electro/Vanic X Machineheart - Circles.flac
+Feb 03 18:17 : update: reading Electro/Vanic X Zella Day - Hypnotic.flac
+Feb 03 18:17 : update: added Electro/Vanic X Zella Day - Hypnotic.flac
+Feb 03 18:17 : update: reading Electro/Lucian - Infrared (feat. Jordan Corey).flac
+Feb 03 18:17 : update: added Electro/Lucian - Infrared (feat. Jordan Corey).flac
+Feb 03 18:17 : update: reading Electro/Frank Walker - Angel Falls (feat. Sterling Fox).flac
+Feb 03 18:17 : update: added Electro/Frank Walker - Angel Falls (feat. Sterling Fox).flac
+Feb 03 18:17 : update: reading Tillberg/Jacob Tillberg - Last Kiss [JompaMusic Release].flac
+Feb 03 18:17 : update: added Tillberg/Jacob Tillberg - Last Kiss [JompaMusic Release].flac
+Feb 03 18:17 : update: reading Tillberg/Jacob Tillberg - Ghosts [JompaMusic Release].flac
+Feb 03 18:17 : update: added Tillberg/Jacob Tillberg - Ghosts [JompaMusic Release].flac
+Feb 03 18:17 : update: reading Tillberg/Jacob Tillberg - LSD Not Even Once [JompaMusic Release].flac
+Feb 03 18:17 : update: added Tillberg/Jacob Tillberg - LSD Not Even Once [JompaMusic Release].flac
+Feb 03 18:17 : update: reading Tillberg/Jacob Tillberg - Shape of You [JompaMusic Release].flac
+Feb 03 18:17 : update: added Tillberg/Jacob Tillberg - Shape of You [JompaMusic Release].flac
+Feb 03 18:17 : update: reading Tillberg/Jacob Tillberg - How Deep [JompaMusic Release].flac
+Feb 03 18:17 : update: added Tillberg/Jacob Tillberg - How Deep [JompaMusic Release].flac
+Feb 03 18:17 : update: reading Tillberg/Jacob Tillberg - No Money [JompaMusic Release].flac
+Feb 03 18:17 : update: added Tillberg/Jacob Tillberg - No Money [JompaMusic Release].flac
+Feb 03 18:17 : update: reading Tillberg/Jacob Tillberg - Feel You [JompaMusic Release].flac
+Feb 03 18:17 : update: added Tillberg/Jacob Tillberg - Feel You [JompaMusic Release].flac
+Feb 03 18:17 : update: reading Tillberg/Jacob Tillberg - Heartless (feat. Johnning) [JompaMusic Release].flac
+Feb 03 18:17 : update: added Tillberg/Jacob Tillberg - Heartless (feat. Johnning) [JompaMusic Release].flac
+Feb 03 18:17 : update: reading Tillberg/Jacob Tillberg - A Dream [JompaMusic Release].flac
+Feb 03 18:17 : update: added Tillberg/Jacob Tillberg - A Dream [JompaMusic Release].flac
+Feb 03 18:17 : update: reading Tillberg/Jacob Tillberg - Kids Riot [JompaMusic Release].flac
+Feb 03 18:17 : update: added Tillberg/Jacob Tillberg - Kids Riot [JompaMusic Release].flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Brainless.flac
+Feb 03 18:17 : update: added Eminem/Eminem - Brainless.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Talking To Myself lyrics.flac
+Feb 03 18:17 : update: added Eminem/Eminem - Talking To Myself lyrics.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Im Back.flac
+Feb 03 18:17 : update: added Eminem/Eminem - Im Back.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Till I Collapse [HD].flac
+Feb 03 18:17 : update: added Eminem/Eminem - Till I Collapse [HD].flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Elevator.flac
+Feb 03 18:17 : update: added Eminem/Eminem - Elevator.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Just Dont Give A Fuck.flac
+Feb 03 18:17 : update: added Eminem/Eminem - Just Dont Give A Fuck.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Space Bound.flac
+Feb 03 18:17 : update: added Eminem/Eminem - Space Bound.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Just Lose It.flac
+Feb 03 18:17 : update: added Eminem/Eminem - Just Lose It.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Crack a Bottle.flac
+Feb 03 18:17 : update: added Eminem/Eminem - Crack a Bottle.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Rap God (Explicit).flac
+Feb 03 18:17 : update: added Eminem/Eminem - Rap God (Explicit).flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Middle Finger [HD Music Video].flac
+Feb 03 18:17 : update: added Eminem/Eminem - Middle Finger [HD Music Video].flac
+Feb 03 18:17 : update: reading Eminem/Evil Twin - Eminem - Lyrics HD.flac
+Feb 03 18:17 : update: added Eminem/Evil Twin - Eminem - Lyrics HD.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Sing For The Moment.flac
+Feb 03 18:17 : update: added Eminem/Eminem - Sing For The Moment.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - 25 To Life.flac
+Feb 03 18:17 : update: added Eminem/Eminem - 25 To Life.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Beautiful.flac
+Feb 03 18:17 : update: added Eminem/Eminem - Beautiful.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Berzerk.flac
+Feb 03 18:17 : update: added Eminem/Eminem - Berzerk.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Rock Bottom [HD].flac
+Feb 03 18:17 : update: added Eminem/Eminem - Rock Bottom [HD].flac
+Feb 03 18:17 : update: reading Eminem/Eminem - The Real Slim Shady (Edited).flac
+Feb 03 18:17 : update: added Eminem/Eminem - The Real Slim Shady (Edited).flac
+Feb 03 18:17 : update: reading Eminem/Eminem ft. Gwen Stefani - Kings Never Die.flac
+Feb 03 18:17 : update: added Eminem/Eminem ft. Gwen Stefani - Kings Never Die.flac
+Feb 03 18:17 : update: reading Eminem/Eminem feat Dr. Dre Skylar Grey - I Need A Doctor.flac
+Feb 03 18:17 : update: added Eminem/Eminem feat Dr. Dre Skylar Grey - I Need A Doctor.flac
+Feb 03 18:17 : update: reading Eminem/Eminem Twisted ft. Skylar Grey  Yelawolf Lyrics.flac
+Feb 03 18:17 : update: added Eminem/Eminem Twisted ft. Skylar Grey  Yelawolf Lyrics.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Mockingbird.flac
+Feb 03 18:17 : update: added Eminem/Eminem - Mockingbird.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Almost Famous.flac
+Feb 03 18:17 : update: added Eminem/Eminem - Almost Famous.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - We Made You.flac
+Feb 03 18:17 : update: added Eminem/Eminem - We Made You.flac
+Feb 03 18:17 : update: reading Eminem/Eminem- Rain Man.flac
+Feb 03 18:17 : update: added Eminem/Eminem- Rain Man.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Déjà Vu.flac
+Feb 03 18:17 : update: added Eminem/Eminem - Déjà Vu.flac
+Feb 03 18:17 : update: reading Eminem/Eminem Ft Kendrick Lamar - Love Game.flac
+Feb 03 18:17 : update: added Eminem/Eminem Ft Kendrick Lamar - Love Game.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Lose Yourself [HD].flac
+Feb 03 18:17 : update: added Eminem/Eminem - Lose Yourself [HD].flac
+Feb 03 18:17 : update: reading Eminem/Eminem - My Name Is.flac
+Feb 03 18:17 : update: added Eminem/Eminem - My Name Is.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Psychopath Killer ft.  Slaughterhouse  Yelawolf Lyrics.flac
+Feb 03 18:17 : update: added Eminem/Eminem - Psychopath Killer ft.  Slaughterhouse  Yelawolf Lyrics.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - My Mom Lyrics.flac
+Feb 03 18:17 : update: added Eminem/Eminem - My Mom Lyrics.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Survival (Explicit).flac
+Feb 03 18:17 : update: added Eminem/Eminem - Survival (Explicit).flac
+Feb 03 18:17 : update: reading Eminem/Eminem - Stan (Short Version) ft. Dido.flac
+Feb 03 18:17 : update: added Eminem/Eminem - Stan (Short Version) ft. Dido.flac
+Feb 03 18:17 : update: reading Eminem/Eminem - When Im Gone.flac
+Feb 03 18:17 : update: added Eminem/Eminem - When Im Gone.flac
+Feb 03 18:17 : update: reading /Total Ape - More (Feat. Miss Li).mp3
+Feb 03 18:18 : update: added /Total Ape - More (Feat. Miss Li).mp3
+Feb 03 18:18 : update: reading Rap/D12   Fight Music lyrics uncensored.flac
+Feb 03 18:18 : update: added Rap/D12   Fight Music lyrics uncensored.flac
+Feb 03 18:18 : update: reading Rap/D12 - My Band ft. Cameo.flac
+Feb 03 18:18 : update: added Rap/D12 - My Band ft. Cameo.flac
+Feb 03 18:18 : update: reading Rap/20syl - Voices feat. Rita J.flac
+Feb 03 18:18 : update: added Rap/20syl - Voices feat. Rita J.flac
+Feb 03 18:18 : update: reading Rap/2Pac feat. Eazy-E  -  Real Thugs.flac
+Feb 03 18:18 : update: added Rap/2Pac feat. Eazy-E  -  Real Thugs.flac
+Feb 03 18:18 : update: reading Rap/suicide squad/09 - Skylar Grey - Wreak Havoc.flac
+Feb 03 18:18 : update: added Rap/suicide squad/09 - Skylar Grey - Wreak Havoc.flac
+Feb 03 18:18 : update: reading Rap/suicide squad/12 - War - Slippin' Into Darkness.flac
+Feb 03 18:18 : update: added Rap/suicide squad/12 - War - Slippin' Into Darkness.flac
+Feb 03 18:18 : update: reading Rap/suicide squad/13 - Creedence Clearwater Revival - Fortunate Son.flac
+Feb 03 18:18 : update: added Rap/suicide squad/13 - Creedence Clearwater Revival - Fortunate Son.flac
+Feb 03 18:18 : update: reading Rap/suicide squad/04 - Action Bronson, Mark Ronson & Dan Auerbach (of The Black Keys) - Standing in the Rain.flac
+Feb 03 18:18 : update: added Rap/suicide squad/04 - Action Bronson, Mark Ronson & Dan Auerbach (of The Black Keys) - Standing in the Rain.flac
+Feb 03 18:18 : update: reading Rap/suicide squad/11 - Panic! At the Disco - Bohemian Rhapsody.flac
+Feb 03 18:18 : update: added Rap/suicide squad/11 - Panic! At the Disco - Bohemian Rhapsody.flac
+Feb 03 18:18 : update: reading Rap/suicide squad/10 - Grimes - Medieval Warfare.flac
+Feb 03 18:18 : update: added Rap/suicide squad/10 - Grimes - Medieval Warfare.flac
+Feb 03 18:18 : update: reading Rap/suicide squad/05 - Kehlani - Gangsta.flac
+Feb 03 18:18 : update: added Rap/suicide squad/05 - Kehlani - Gangsta.flac
+Feb 03 18:18 : update: reading Rap/suicide squad/14 - ConfidentialMX (feat. Becky Hanson) - I Started a Joke.flac
+Feb 03 18:18 : update: added Rap/suicide squad/14 - ConfidentialMX (feat. Becky Hanson) - I Started a Joke.flac
+Feb 03 18:18 : update: reading Rap/suicide squad/06 - Kevin Gates - Know Better.flac
+Feb 03 18:18 : update: added Rap/suicide squad/06 - Kevin Gates - Know Better.flac
+Feb 03 18:18 : update: reading Rap/suicide squad/07 - Grace (feat. G-Eazy) - You Don't Own Me.flac
+Feb 03 18:18 : update: added Rap/suicide squad/07 - Grace (feat. G-Eazy) - You Don't Own Me.flac
+Feb 03 18:18 : update: reading Rap/suicide squad/08 - Eminem - Without Me.flac
+Feb 03 18:18 : update: added Rap/suicide squad/08 - Eminem - Without Me.flac
+Feb 03 18:18 : update: reading Rap/suicide squad/02 - Lil Wayne, Wiz Khalifa & Imagine Dragons (with Logic, Ty Dolla $ign & X Ambassadors) - Sucker for Pain.flac
+Feb 03 18:18 : update: added Rap/suicide squad/02 - Lil Wayne, Wiz Khalifa & Imagine Dragons (with Logic, Ty Dolla $ign & X Ambassadors) - Sucker for Pain.flac
+Feb 03 18:18 : update: reading Rap/suicide squad/03 - Twenty One Pilots - Heathens.flac
+Feb 03 18:18 : update: added Rap/suicide squad/03 - Twenty One Pilots - Heathens.flac
+Feb 03 18:18 : update: reading Rap/suicide squad/01 - Skrillex & Rick Ross - Purple Lamborghini.flac
+Feb 03 18:18 : update: added Rap/suicide squad/01 - Skrillex & Rick Ross - Purple Lamborghini.flac
+Feb 03 18:18 : update: reading Rap/2pac feat Dr.Dre - California Love HD.flac
+Feb 03 18:18 : update: added Rap/2pac feat Dr.Dre - California Love HD.flac
+Feb 03 18:18 : update: reading Rap/Denzel Curry - ULTIMATE (With Lyrics).flac
+Feb 03 18:18 : update: added Rap/Denzel Curry - ULTIMATE (With Lyrics).flac
+Feb 03 18:18 : update: reading Rap/Dr. Dre - Forgot About Dre ft. Eminem Hittman.flac
+Feb 03 18:18 : update: added Rap/Dr. Dre - Forgot About Dre ft. Eminem Hittman.flac
+Feb 03 18:18 : update: reading Rap/Ice Cube - Sasquatch.flac
+Feb 03 18:18 : update: added Rap/Ice Cube - Sasquatch.flac
+Feb 03 18:18 : update: reading Rap/Dr.Dre - Medicine Man ft Eminem [Lyrics].flac
+Feb 03 18:18 : update: added Rap/Dr.Dre - Medicine Man ft Eminem [Lyrics].flac
+Feb 03 18:18 : update: reading Rap/Dr. Dre - Still D.R.E. ft. Snoop Dogg.flac
+Feb 03 18:18 : update: added Rap/Dr. Dre - Still D.R.E. ft. Snoop Dogg.flac
+Feb 03 18:18 : update: reading Rap/Purple Hills (Uncensored) - D12.flac
+Feb 03 18:18 : update: added Rap/Purple Hills (Uncensored) - D12.flac
+Feb 03 18:18 : update: reading /James Mercy  Mia Vaile - Wildfire.mp3
+Feb 03 18:18 : update: added /James Mercy  Mia Vaile - Wildfire.mp3
+Feb 03 18:18 : update: reading /Unlike Pluto - No Scrubs ft. Joanna Jones (Cover).mp3
+Feb 03 18:18 : update: added /Unlike Pluto - No Scrubs ft. Joanna Jones (Cover).mp3
+Feb 03 18:18 : update: reading Yelawolf/Yelawolf - Till It’s Gone.flac
+Feb 03 18:18 : update: added Yelawolf/Yelawolf - Till It’s Gone.flac
+Feb 03 18:18 : update: reading Yelawolf/Yelawolf - Best Friend ft. Eminem.flac
+Feb 03 18:18 : update: added Yelawolf/Yelawolf - Best Friend ft. Eminem.flac
+Feb 03 18:18 : update: reading Yelawolf/Yelawolf - Whiskey In A Bottle.flac
+Feb 03 18:18 : update: added Yelawolf/Yelawolf - Whiskey In A Bottle.flac
+Feb 03 18:18 : update: reading Yelawolf/Yelawolf - Daylight.flac
+Feb 03 18:18 : update: added Yelawolf/Yelawolf - Daylight.flac
+Feb 03 18:18 : update: reading Yelawolf/Yelawolf - Shadows ft. Joshua Hedley.flac
+Feb 03 18:18 : update: added Yelawolf/Yelawolf - Shadows ft. Joshua Hedley.flac
+Feb 03 18:18 : update: reading Yelawolf/Yelawolf - Down.flac
+Feb 03 18:18 : update: added Yelawolf/Yelawolf - Down.flac
+Feb 03 18:18 : update: reading Yelawolf/Yelawolf - American You.flac
+Feb 03 18:18 : update: added Yelawolf/Yelawolf - American You.flac
+Feb 03 18:18 : simple_db: removing empty directories from DB
+Feb 03 18:18 : simple_db: sorting DB
+Feb 03 18:18 : simple_db: writing DB
+Feb 03 18:18 : update: finished
+Feb 03 18:18 : client: [1] process command "status"
+Feb 03 18:18 : client: [1] command returned 0
+Feb 03 18:18 : client: [1] process command "idle"
+Feb 03 18:18 : client: [1] command returned 1
+Feb 03 18:18 : client: [1] process command "lsinfo """
+Feb 03 18:18 : client: [1] command returned 0
+Feb 03 18:18 : client: [1] process command "idle"
+Feb 03 18:18 : client: [1] command returned 1
+Feb 03 18:18 : client: [1] closed
+Feb 03 18:18 : client: [2] opened from [::1]:59692
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "plchanges "0""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "outputs"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "decoders"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "outputs"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "outputs"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "update "/""
+Feb 03 18:18 : update: spawned thread for update job id 2
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : update: starting
+Feb 03 18:18 : update: finished
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "lsinfo """
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "addid "Total Ape - More (Feat. Miss Li).mp3""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "playid "1""
+Feb 03 18:18 : playlist: play 0:"Total Ape - More (Feat. Miss Li).mp3"
+Feb 03 18:18 : decoder_thread: probing plugin mad
+Feb 03 18:18 : decoder: audio_format=44100:24:2, seekable=true
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : alsa_output: opened default type=IOPLUG
+Feb 03 18:18 : alsa_output: buffer: size=48..524288 time=1088..11888617
+Feb 03 18:18 : alsa_output: period: size=16..174763 time=362..3962880
+Feb 03 18:18 : alsa_output: default period_time = buffer_time/4 = 500000/4 = 125000
+Feb 03 18:18 : alsa_output: format=S24_LE (Signed 24 bit Little Endian)
+Feb 03 18:18 : alsa_output: buffer_size=22050 period_size=5512
+Feb 03 18:18 : output: opened plugin=alsa name="mpd alsamixer-output" audio_format=44100:24:2
+Feb 03 18:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Feb 03 18:18 : output: opened plugin=fifo name="toggle_visualizer" audio_format=44100:16:2
+Feb 03 18:18 : output: converting in=44100:24:2 -> f=44100:24:2 -> out=44100:16:2
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "plchanges "3""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : state_file: Saving state file /home/l7ssha/.config/mpd/state
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "volume "-2""
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : state_file: Saving state file /home/l7ssha/.config/mpd/state
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:18 : client: [2] process command "status"
+Feb 03 18:18 : client: [2] command returned 0
+Feb 03 18:18 : client: [2] process command "idle"
+Feb 03 18:18 : client: [2] command returned 1
+Feb 03 18:19 : client: [2] process command "status"
+Feb 03 18:19 : client: [2] command returned 0
+Feb 03 18:19 : client: [2] process command "idle"
+Feb 03 18:19 : client: [2] command returned 1
+Feb 03 18:19 : client: [2] process command "status"
+Feb 03 18:19 : client: [2] command returned 0
+Feb 03 18:19 : client: [2] process command "idle"
+Feb 03 18:19 : client: [2] command returned 1
+Feb 03 18:19 : client: [2] process command "status"
+Feb 03 18:19 : client: [2] command returned 0
+Feb 03 18:19 : client: [2] process command "idle"
+Feb 03 18:19 : client: [2] command returned 1
+Feb 03 18:19 : client: [2] process command "status"
+Feb 03 18:19 : client: [2] command returned 0
+Feb 03 18:19 : client: [2] process command "idle"
+Feb 03 18:19 : client: [2] command returned 1
+Feb 03 18:19 : client: [2] process command "status"
+Feb 03 18:19 : client: [2] command returned 0
+Feb 03 18:19 : client: [2] process command "idle"
+Feb 03 18:19 : client: [2] command returned 1
+Feb 03 18:19 : client: [2] process command "status"
+Feb 03 18:19 : client: [2] command returned 0
+Feb 03 18:19 : client: [2] process command "idle"
+Feb 03 18:19 : client: [2] command returned 1
+Feb 03 18:19 : client: [2] process command "status"
+Feb 03 18:19 : client: [2] command returned 0
+Feb 03 18:19 : client: [2] process command "idle"
+Feb 03 18:19 : client: [2] command returned 1
+Feb 03 18:19 : client: [2] process command "status"
+Feb 03 18:19 : client: [2] command returned 0
+Feb 03 18:19 : client: [2] process command "idle"
+Feb 03 18:19 : client: [2] command returned 1
+Feb 03 18:19 : client: [2] process command "status"
+Feb 03 18:19 : client: [2] command returned 0
+Feb 03 18:19 : client: [2] process command "idle"
+Feb 03 18:19 : client: [2] command returned 1
+Feb 03 18:19 : client: [2] process command "status"
+Feb 03 18:19 : client: [2] command returned 0
+Feb 03 18:19 : client: [2] process command "idle"
+Feb 03 18:19 : client: [2] command returned 1
+Feb 03 18:19 : client: [2] process command "status"
+Feb 03 18:19 : client: [2] command returned 0
+Feb 03 18:19 : client: [2] process command "idle"
+Feb 03 18:19 : client: [2] command returned 1
+Feb 03 18:19 : client: [2] process command "status"
+Feb 03 18:19 : client: [2] command returned 0
+Feb 03 18:19 : client: [2] process command "idle"
+Feb 03 18:19 : client: [2] command returned 1
+Feb 03 18:19 : client: [2] process command "status"
+Feb 03 18:19 : client: [2] command returned 0
+Feb 03 18:19 : client: [2] process command "idle"
+Feb 03 18:19 : client: [2] command returned 1
+Feb 03 18:19 : client: [2] process command "status"
+Feb 03 18:19 : client: [2] command returned 0
+Feb 03 18:19 : client: [2] process command "idle"
+Feb 03 18:19 : client: [2] command returned 1
+Feb 03 18:19 : client: [2] process command "status"
+Feb 03 18:19 : client: [2] command returned 0
+Feb 03 18:19 : client: [2] process command "idle"
+Feb 03 18:19 : client: [2] command returned 1
+Feb 03 18:19 : client: [2] closed
+Feb 03 18:20 : client: [3] opened from [::1]:59806
+Feb 03 18:20 : client: [3] process command list
+Feb 03 18:20 : client: process command "status"
+Feb 03 18:20 : client: command returned 0
+Feb 03 18:20 : client: process command "currentsong"
+Feb 03 18:20 : client: command returned 0
+Feb 03 18:20 : client: [3] process command list returned 0
+Feb 03 18:20 : client: [3] closed
+Feb 03 18:20 : client: [4] opened from [::1]:59808
+Feb 03 18:20 : client: [4] process command list
+Feb 03 18:20 : client: process command "status"
+Feb 03 18:20 : client: command returned 0
+Feb 03 18:20 : client: process command "currentsong"
+Feb 03 18:20 : client: command returned 0
+Feb 03 18:20 : client: [4] process command list returned 0
+Feb 03 18:20 : client: [4] closed
+Feb 03 18:21 : client: [5] opened from [::1]:59822
+Feb 03 18:21 : client: [5] process command list
+Feb 03 18:21 : client: process command "status"
+Feb 03 18:21 : client: command returned 0
+Feb 03 18:21 : client: process command "currentsong"
+Feb 03 18:21 : client: command returned 0
+Feb 03 18:21 : client: [5] process command list returned 0
+Feb 03 18:21 : client: [5] closed
+Feb 03 18:21 : client: [6] opened from [::1]:59824
+Feb 03 18:21 : client: [6] process command list
+Feb 03 18:21 : client: process command "status"
+Feb 03 18:21 : client: command returned 0
+Feb 03 18:21 : client: process command "currentsong"
+Feb 03 18:21 : client: command returned 0
+Feb 03 18:21 : client: [6] process command list returned 0
+Feb 03 18:21 : client: [6] closed
+Feb 03 18:21 : player: played "Total Ape - More (Feat. Miss Li).mp3"
+Feb 03 18:21 : playlist: stop
+Feb 03 18:21 : output: closed plugin=alsa name="mpd alsamixer-output"
+Feb 03 18:21 : output: closed plugin=fifo name="toggle_visualizer"
+Feb 03 18:21 : state_file: Saving state file /home/l7ssha/.config/mpd/state
+Feb 03 18:21 : client: [7] opened from [::1]:59826
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "plchanges "0""
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "outputs"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "decoders"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "outputs"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "outputs"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : client: [7] process command "lsinfo """
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : client: [7] process command "addid "James Mercy  Mia Vaile - Wildfire.mp3""
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "playid "2""
+Feb 03 18:21 : playlist: play 1:"James Mercy  Mia Vaile - Wildfire.mp3"
+Feb 03 18:21 : decoder_thread: probing plugin mad
+Feb 03 18:21 : decoder: audio_format=44100:24:2, seekable=true
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : alsa_output: opened default type=IOPLUG
+Feb 03 18:21 : alsa_output: buffer: size=48..524288 time=1088..11888617
+Feb 03 18:21 : alsa_output: period: size=16..174763 time=362..3962880
+Feb 03 18:21 : alsa_output: default period_time = buffer_time/4 = 500000/4 = 125000
+Feb 03 18:21 : alsa_output: format=S24_LE (Signed 24 bit Little Endian)
+Feb 03 18:21 : alsa_output: buffer_size=22050 period_size=5512
+Feb 03 18:21 : output: opened plugin=alsa name="mpd alsamixer-output" audio_format=44100:24:2
+Feb 03 18:21 : output: opened plugin=fifo name="toggle_visualizer" audio_format=44100:16:2
+Feb 03 18:21 : output: converting in=44100:24:2 -> f=44100:24:2 -> out=44100:16:2
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "plchanges "4""
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : state_file: Saving state file /home/l7ssha/.config/mpd/state
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:21 : client: [7] process command "status"
+Feb 03 18:21 : client: [7] command returned 0
+Feb 03 18:21 : client: [7] process command "idle"
+Feb 03 18:21 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] process command "status"
+Feb 03 18:22 : client: [7] command returned 0
+Feb 03 18:22 : client: [7] process command "idle"
+Feb 03 18:22 : client: [7] command returned 1
+Feb 03 18:22 : client: [7] closed
+Feb 03 18:22 : client: [8] opened from [::1]:59828
+Feb 03 18:22 : client: [8] process command list
+Feb 03 18:22 : client: process command "status"
+Feb 03 18:22 : client: command returned 0
+Feb 03 18:22 : client: process command "currentsong"
+Feb 03 18:22 : client: command returned 0
+Feb 03 18:22 : client: [8] process command list returned 0
+Feb 03 18:22 : client: [8] closed
+Feb 03 18:22 : client: [9] opened from [::1]:59830
+Feb 03 18:22 : client: [9] process command list
+Feb 03 18:22 : client: process command "status"
+Feb 03 18:22 : client: command returned 0
+Feb 03 18:22 : client: process command "currentsong"
+Feb 03 18:22 : client: command returned 0
+Feb 03 18:22 : client: [9] process command list returned 0
+Feb 03 18:22 : client: [9] closed
+Feb 03 18:22 : client: [10] opened from [::1]:59832
+Feb 03 18:22 : client: [10] process command list
+Feb 03 18:22 : client: process command "status"
+Feb 03 18:22 : client: command returned 0
+Feb 03 18:22 : client: process command "currentsong"
+Feb 03 18:22 : client: command returned 0
+Feb 03 18:22 : client: [10] process command list returned 0
+Feb 03 18:22 : client: [10] closed
+Feb 03 18:22 : client: [11] opened from [::1]:59834
+Feb 03 18:22 : client: [11] process command "status"
+Feb 03 18:22 : client: [11] command returned 0
+Feb 03 18:22 : client: [11] process command "plchanges "0""
+Feb 03 18:22 : client: [11] command returned 0
+Feb 03 18:22 : client: [11] process command "outputs"
+Feb 03 18:22 : client: [11] command returned 0
+Feb 03 18:22 : client: [11] process command "decoders"
+Feb 03 18:22 : client: [11] command returned 0
+Feb 03 18:22 : client: [11] process command "outputs"
+Feb 03 18:22 : client: [11] command returned 0
+Feb 03 18:22 : client: [11] process command "outputs"
+Feb 03 18:22 : client: [11] command returned 0
+Feb 03 18:22 : client: [11] process command "status"
+Feb 03 18:22 : client: [11] command returned 0
+Feb 03 18:22 : client: [11] process command "idle"
+Feb 03 18:22 : client: [11] command returned 1
+Feb 03 18:22 : client: [11] process command "status"
+Feb 03 18:22 : client: [11] command returned 0
+Feb 03 18:22 : client: [11] process command "idle"
+Feb 03 18:22 : client: [11] command returned 1
+Feb 03 18:22 : client: [11] process command "lsinfo """
+Feb 03 18:22 : client: [11] command returned 0
+Feb 03 18:22 : client: [11] process command "idle"
+Feb 03 18:22 : client: [11] command returned 1
+Feb 03 18:22 : client: [11] process command "status"
+Feb 03 18:22 : client: [11] command returned 0
+Feb 03 18:22 : client: [11] process command "idle"
+Feb 03 18:22 : client: [11] command returned 1
+Feb 03 18:22 : client: [11] process command "status"
+Feb 03 18:22 : client: [11] command returned 0
+Feb 03 18:22 : client: [11] process command "idle"
+Feb 03 18:22 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [12] opened from [::1]:59836
+Feb 03 18:23 : client: [12] process command list
+Feb 03 18:23 : client: process command "status"
+Feb 03 18:23 : client: command returned 0
+Feb 03 18:23 : client: process command "currentsong"
+Feb 03 18:23 : client: command returned 0
+Feb 03 18:23 : client: [12] process command list returned 0
+Feb 03 18:23 : client: [12] closed
+Feb 03 18:23 : client: [11] process command "lsinfo "Unlike Pluto""
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "addid "Unlike Pluto/Aryay - Overwhelmed (Unlike Pluto Remix).flac""
+Feb 03 18:23 : playlist: queue song 2:"Unlike Pluto/Aryay - Overwhelmed (Unlike Pluto Remix).flac"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "playid "3""
+Feb 03 18:23 : playlist: play 2:"Unlike Pluto/Aryay - Overwhelmed (Unlike Pluto Remix).flac"
+Feb 03 18:23 : decoder_thread: probing plugin flac
+Feb 03 18:23 : decoder: audio_format=44100:24:2, seekable=true
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "plchanges "5""
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : state_file: Saving state file /home/l7ssha/.config/mpd/state
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [13] opened from [::1]:59838
+Feb 03 18:23 : client: [13] process command list
+Feb 03 18:23 : client: process command "status"
+Feb 03 18:23 : client: command returned 0
+Feb 03 18:23 : client: process command "currentsong"
+Feb 03 18:23 : client: command returned 0
+Feb 03 18:23 : client: [13] process command list returned 0
+Feb 03 18:23 : client: [13] closed
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [14] opened from [::1]:59840
+Feb 03 18:23 : client: [14] process command list
+Feb 03 18:23 : client: process command "status"
+Feb 03 18:23 : client: command returned 0
+Feb 03 18:23 : client: process command "currentsong"
+Feb 03 18:23 : client: command returned 0
+Feb 03 18:23 : client: [14] process command list returned 0
+Feb 03 18:23 : client: [14] closed
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [15] opened from [::1]:59842
+Feb 03 18:23 : client: [15] process command list
+Feb 03 18:23 : client: process command "status"
+Feb 03 18:23 : client: command returned 0
+Feb 03 18:23 : client: process command "currentsong"
+Feb 03 18:23 : client: command returned 0
+Feb 03 18:23 : client: [15] process command list returned 0
+Feb 03 18:23 : client: [15] closed
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] process command "status"
+Feb 03 18:23 : client: [11] command returned 0
+Feb 03 18:23 : client: [11] process command "idle"
+Feb 03 18:23 : client: [11] command returned 1
+Feb 03 18:23 : client: [11] closed
+Feb 03 18:23 : client: [16] opened from [::1]:59844
+Feb 03 18:23 : client: [16] process command list
+Feb 03 18:23 : client: process command "status"
+Feb 03 18:23 : client: command returned 0
+Feb 03 18:23 : client: process command "currentsong"
+Feb 03 18:23 : client: command returned 0
+Feb 03 18:23 : client: [16] process command list returned 0
+Feb 03 18:23 : client: [16] closed
+Feb 03 18:23 : client: [17] opened from [::1]:59846
+Feb 03 18:23 : client: [17] process command list
+Feb 03 18:23 : client: process command "status"
+Feb 03 18:23 : client: command returned 0
+Feb 03 18:23 : client: process command "currentsong"
+Feb 03 18:23 : client: command returned 0
+Feb 03 18:23 : client: [17] process command list returned 0
+Feb 03 18:23 : client: [17] closed
+Feb 03 18:24 : client: [18] opened from [::1]:59848
+Feb 03 18:24 : client: [18] process command list
+Feb 03 18:24 : client: process command "status"
+Feb 03 18:24 : client: command returned 0
+Feb 03 18:24 : client: process command "currentsong"
+Feb 03 18:24 : client: command returned 0
+Feb 03 18:24 : client: [18] process command list returned 0
+Feb 03 18:24 : client: [18] closed
+Feb 03 18:24 : client: [19] opened from [::1]:59850
+Feb 03 18:24 : client: [19] process command list
+Feb 03 18:24 : client: process command "status"
+Feb 03 18:24 : client: command returned 0
+Feb 03 18:24 : client: process command "currentsong"
+Feb 03 18:24 : client: command returned 0
+Feb 03 18:24 : client: [19] process command list returned 0
+Feb 03 18:24 : client: [19] closed
+Feb 03 18:24 : client: [20] opened from [::1]:59852
+Feb 03 18:24 : client: [20] process command list
+Feb 03 18:24 : client: process command "status"
+Feb 03 18:24 : client: command returned 0
+Feb 03 18:24 : client: process command "currentsong"
+Feb 03 18:24 : client: command returned 0
+Feb 03 18:24 : client: [20] process command list returned 0
+Feb 03 18:24 : client: [20] closed
+Feb 03 18:24 : client: [21] opened from [::1]:59854
+Feb 03 18:24 : client: [21] process command list
+Feb 03 18:24 : client: process command "status"
+Feb 03 18:24 : client: command returned 0
+Feb 03 18:24 : client: process command "currentsong"
+Feb 03 18:24 : client: command returned 0
+Feb 03 18:24 : client: [21] process command list returned 0
+Feb 03 18:24 : client: [21] closed
+Feb 03 18:24 : client: [22] opened from [::1]:59856
+Feb 03 18:24 : client: [22] process command list
+Feb 03 18:24 : client: process command "status"
+Feb 03 18:24 : client: command returned 0
+Feb 03 18:24 : client: process command "currentsong"
+Feb 03 18:24 : client: command returned 0
+Feb 03 18:24 : client: [22] process command list returned 0
+Feb 03 18:24 : client: [22] closed
+Feb 03 18:24 : client: [23] opened from [::1]:59858
+Feb 03 18:24 : client: [23] process command list
+Feb 03 18:24 : client: process command "status"
+Feb 03 18:24 : client: command returned 0
+Feb 03 18:24 : client: process command "currentsong"
+Feb 03 18:24 : client: command returned 0
+Feb 03 18:24 : client: [23] process command list returned 0
+Feb 03 18:24 : client: [23] closed
+Feb 03 18:25 : client: [24] opened from [::1]:59860
+Feb 03 18:25 : client: [24] process command list
+Feb 03 18:25 : client: process command "status"
+Feb 03 18:25 : client: command returned 0
+Feb 03 18:25 : client: process command "currentsong"
+Feb 03 18:25 : client: command returned 0
+Feb 03 18:25 : client: [24] process command list returned 0
+Feb 03 18:25 : client: [24] closed
+Feb 03 18:25 : client: [25] opened from [::1]:59862
+Feb 03 18:25 : client: [25] process command list
+Feb 03 18:25 : client: process command "status"
+Feb 03 18:25 : client: command returned 0
+Feb 03 18:25 : client: process command "currentsong"
+Feb 03 18:25 : client: command returned 0
+Feb 03 18:25 : client: [25] process command list returned 0
+Feb 03 18:25 : client: [25] closed
+Feb 03 18:25 : client: [26] opened from [::1]:59864
+Feb 03 18:25 : client: [26] process command list
+Feb 03 18:25 : client: process command "status"
+Feb 03 18:25 : client: command returned 0
+Feb 03 18:25 : client: process command "currentsong"
+Feb 03 18:25 : client: command returned 0
+Feb 03 18:25 : client: [26] process command list returned 0
+Feb 03 18:25 : client: [26] closed
+Feb 03 18:25 : client: [27] opened from [::1]:59866
+Feb 03 18:25 : client: [27] process command list
+Feb 03 18:25 : client: process command "status"
+Feb 03 18:25 : client: command returned 0
+Feb 03 18:25 : client: process command "currentsong"
+Feb 03 18:25 : client: command returned 0
+Feb 03 18:25 : client: [27] process command list returned 0
+Feb 03 18:25 : client: [27] closed
+Feb 03 18:25 : client: [28] opened from [::1]:59868
+Feb 03 18:25 : client: [28] process command list
+Feb 03 18:25 : client: process command "status"
+Feb 03 18:25 : client: command returned 0
+Feb 03 18:25 : client: process command "currentsong"
+Feb 03 18:25 : client: command returned 0
+Feb 03 18:25 : client: [28] process command list returned 0
+Feb 03 18:25 : client: [28] closed
+Feb 03 18:25 : client: [29] opened from [::1]:59870
+Feb 03 18:25 : client: [29] process command list
+Feb 03 18:25 : client: process command "status"
+Feb 03 18:25 : client: command returned 0
+Feb 03 18:25 : client: process command "currentsong"
+Feb 03 18:25 : client: command returned 0
+Feb 03 18:25 : client: [29] process command list returned 0
+Feb 03 18:25 : client: [29] closed
+Feb 03 18:26 : client: [30] opened from [::1]:59872
+Feb 03 18:26 : client: [30] process command list
+Feb 03 18:26 : client: process command "status"
+Feb 03 18:26 : client: command returned 0
+Feb 03 18:26 : client: process command "currentsong"
+Feb 03 18:26 : client: command returned 0
+Feb 03 18:26 : client: [30] process command list returned 0
+Feb 03 18:26 : client: [30] closed
+Feb 03 18:26 : client: [31] opened from [::1]:59874
+Feb 03 18:26 : client: [31] process command list
+Feb 03 18:26 : client: process command "status"
+Feb 03 18:26 : client: command returned 0
+Feb 03 18:26 : client: process command "currentsong"
+Feb 03 18:26 : client: command returned 0
+Feb 03 18:26 : client: [31] process command list returned 0
+Feb 03 18:26 : client: [31] closed
+Feb 03 18:26 : client: [32] opened from [::1]:59876
+Feb 03 18:26 : client: [32] process command list
+Feb 03 18:26 : client: process command "status"
+Feb 03 18:26 : client: command returned 0
+Feb 03 18:26 : client: process command "currentsong"
+Feb 03 18:26 : client: command returned 0
+Feb 03 18:26 : client: [32] process command list returned 0
+Feb 03 18:26 : client: [32] closed
+Feb 03 18:26 : client: [33] opened from [::1]:59878
+Feb 03 18:26 : client: [33] process command list
+Feb 03 18:26 : client: process command "status"
+Feb 03 18:26 : client: command returned 0
+Feb 03 18:26 : client: process command "currentsong"
+Feb 03 18:26 : client: command returned 0
+Feb 03 18:26 : client: [33] process command list returned 0
+Feb 03 18:26 : client: [33] closed
+Feb 03 18:26 : player: played "Unlike Pluto/Aryay - Overwhelmed (Unlike Pluto Remix).flac"
+Feb 03 18:26 : playlist: stop
+Feb 03 18:26 : output: closed plugin=alsa name="mpd alsamixer-output"
+Feb 03 18:26 : output: closed plugin=fifo name="toggle_visualizer"
+Feb 03 18:26 : state_file: Saving state file /home/l7ssha/.config/mpd/state
+Feb 03 18:27 : client: [34] opened from [::1]:59880
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "plchanges "0""
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "outputs"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "decoders"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "outputs"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "outputs"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "playid "3""
+Feb 03 18:27 : playlist: play 2:"Unlike Pluto/Aryay - Overwhelmed (Unlike Pluto Remix).flac"
+Feb 03 18:27 : decoder_thread: probing plugin flac
+Feb 03 18:27 : decoder: audio_format=44100:24:2, seekable=true
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : alsa_output: opened default type=IOPLUG
+Feb 03 18:27 : alsa_output: buffer: size=48..524288 time=1088..11888617
+Feb 03 18:27 : alsa_output: period: size=16..174763 time=362..3962880
+Feb 03 18:27 : alsa_output: default period_time = buffer_time/4 = 500000/4 = 125000
+Feb 03 18:27 : alsa_output: format=S24_LE (Signed 24 bit Little Endian)
+Feb 03 18:27 : alsa_output: buffer_size=22050 period_size=5512
+Feb 03 18:27 : output: opened plugin=alsa name="mpd alsamixer-output" audio_format=44100:24:2
+Feb 03 18:27 : output: opened plugin=fifo name="toggle_visualizer" audio_format=44100:16:2
+Feb 03 18:27 : output: converting in=44100:24:2 -> f=44100:24:2 -> out=44100:16:2
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : state_file: Saving state file /home/l7ssha/.config/mpd/state
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:27 : client: [34] process command "status"
+Feb 03 18:27 : client: [34] command returned 0
+Feb 03 18:27 : client: [34] process command "idle"
+Feb 03 18:27 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:28 : client: [34] process command "status"
+Feb 03 18:28 : client: [34] command returned 0
+Feb 03 18:28 : client: [34] process command "idle"
+Feb 03 18:28 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:29 : client: [34] process command "status"
+Feb 03 18:29 : client: [34] command returned 0
+Feb 03 18:29 : client: [34] process command "idle"
+Feb 03 18:29 : client: [34] command returned 1
+Feb 03 18:30 : client: [34] process command "status"
+Feb 03 18:30 : client: [34] command returned 0
+Feb 03 18:30 : client: [34] process command "idle"
+Feb 03 18:30 : client: [34] command returned 1
+Feb 03 18:30 : client: [34] process command "status"
+Feb 03 18:30 : client: [34] command returned 0
+Feb 03 18:30 : client: [34] process command "idle"
+Feb 03 18:30 : client: [34] command returned 1
+Feb 03 18:30 : client: [34] process command "status"
+Feb 03 18:30 : client: [34] command returned 0
+Feb 03 18:30 : client: [34] process command "idle"
+Feb 03 18:30 : client: [34] command returned 1
+Feb 03 18:30 : client: [34] process command "status"
+Feb 03 18:30 : client: [34] command returned 0
+Feb 03 18:30 : client: [34] process command "idle"
+Feb 03 18:30 : client: [34] command returned 1
+Feb 03 18:30 : client: [34] process command "status"
+Feb 03 18:30 : client: [34] command returned 0
+Feb 03 18:30 : client: [34] process command "idle"
+Feb 03 18:30 : client: [34] command returned 1
+Feb 03 18:30 : client: [34] process command "status"
+Feb 03 18:30 : client: [34] command returned 0
+Feb 03 18:30 : client: [34] process command "idle"
+Feb 03 18:30 : client: [34] command returned 1
+Feb 03 18:30 : client: [34] process command "status"
+Feb 03 18:30 : client: [34] command returned 0
+Feb 03 18:30 : client: [34] process command "idle"
+Feb 03 18:30 : client: [34] command returned 1
+Feb 03 18:30 : client: [34] process command "playid "3""
+Feb 03 18:30 : playlist: play 2:"Unlike Pluto/Aryay - Overwhelmed (Unlike Pluto Remix).flac"
+Feb 03 18:30 : client: [34] command returned 0
+Feb 03 18:30 : client: [34] process command "idle"
+Feb 03 18:30 : client: [34] command returned 1
+Feb 03 18:30 : client: [34] process command "status"
+Feb 03 18:30 : client: [34] command returned 0
+Feb 03 18:30 : client: [34] process command "idle"
+Feb 03 18:30 : client: [34] command returned 1
+Feb 03 18:30 : client: [34] process command "status"
+Feb 03 18:30 : client: [34] command returned 0
+Feb 03 18:30 : client: [34] process command "idle"
+Feb 03 18:30 : client: [34] command returned 1
+Feb 03 18:30 : client: [34] process command "status"
+Feb 03 18:30 : client: [34] command returned 0
+Feb 03 18:30 : client: [34] process command "idle"
+Feb 03 18:30 : client: [34] command returned 1
+Feb 03 18:30 : client: [34] process command "status"
+Feb 03 18:30 : client: [34] command returned 0
+Feb 03 18:30 : client: [34] process command "idle"
+Feb 03 18:30 : client: [34] command returned 1
+Feb 03 18:30 : client: [34] process command "pause"
+Feb 03 18:30 : output: closed plugin=fifo name="toggle_visualizer"
+Feb 03 18:30 : client: [34] command returned 0
+Feb 03 18:30 : client: [34] process command "idle"
+Feb 03 18:30 : client: [34] command returned 1
+Feb 03 18:30 : client: [34] process command "status"
+Feb 03 18:30 : client: [34] command returned 0
+Feb 03 18:30 : client: [34] process command "idle"
+Feb 03 18:30 : client: [34] command returned 1
+Feb 03 18:30 : output: closed plugin=alsa name="mpd alsamixer-output"
+Feb 03 18:30 : state_file: Saving state file /home/l7ssha/.config/mpd/state
+Feb 03 18:53 : client: [34] closed
+Feb 03 20:40 : signal_handlers: got SIGHUP, reopening log files
+Feb 03 20:40 : log: Cycling log files
+Feb 03 20:40 : log: Done cycling log files
+Feb 03 20:40 : state_file: Saving state file /home/l7ssha/.config/mpd/state
+Feb 03 20:40 : player: played "Unlike Pluto/Aryay - Overwhelmed (Unlike Pluto Remix).flac"
+Feb 03 20:40 : avahi: Shutting down interface
+Feb 03 20:40 : listen: listen_global_finish called
+Feb 03 20:40 : fifo_output: Removing FIFO "/tmp/mpd.fifo"
