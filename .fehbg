@@ -1,2 +1,2 @@
 #!/bin/sh
-'feh' '--bg-fill' '/home/data/TAPETY/wallhaven-561401.jpg' 
+'feh' '--bg-scale' '/home/data/TAPETY/AF5AFsn.png' 

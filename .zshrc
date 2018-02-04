@@ -20,7 +20,7 @@ antigen bundle zsh-users/zsh-completions
 antigen bundle facetframer/zshnip
 
 # Load the theme.
-antigen theme minimal
+antigen theme agnoster
 
 # Tell Antigen that you're done.
 antigen apply

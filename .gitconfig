@@ -4,5 +4,3 @@
 	email = szymon.uglis@hotmail.com
 [credential]
 	helper = cache
-[core]
-	autocrlf = input
