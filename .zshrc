@@ -33,14 +33,5 @@ for file in ~/.zsh/*.zsh; do
     fi
 done
 
-# Commands
-cd ~
-
-# fzf fuzzy finder
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-PATH="/home/l7ssha/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/l7ssha/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/l7ssha/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/l7ssha/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/l7ssha/perl5"; export PERL_MM_OPT;
+# Commands disabled for now, becouse of low computer
+# neofetch
