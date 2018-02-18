@@ -1,7 +1,7 @@
 {
     "csharp.format.enable": false,
     "git.autofetch": true,
-    "window.zoomLevel": -1.2,
+    "window.zoomLevel": -1.0,
     "explorer.confirmDelete": false,
     "html.format.wrapLineLength": 0,
     "files.autoSave": "onWindowChange",
@@ -28,4 +28,18 @@
     "extensions.ignoreRecommendations": true,
     "telemetry.enableTelemetry": false,
     "git.confirmSync": false,
+    "workbench.colorTheme": "Better Solarized Dark",
+    "editor.lineNumbers": "relative",
+    "cSpell.userWords": [
+        "kernelu"
+    ],
+    "cSpell.enabledLanguageIds": [
+        "html",
+        "latex",
+        "markdown",
+        "plaintext",
+        "pub",
+        "text",
+    ],
+    "editor.minimap.enabled": false,
 }
