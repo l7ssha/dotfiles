@@ -36,7 +36,7 @@ module-margin-right = 1
 
 modules-left = mpd
 modules-center =
-modules-right = filesystem system-uptime-pretty updates-arch-combined memory temperature cpu date
+modules-right = netspeed system-uptime-pretty updates-arch-combined memory temperature cpu date
 
 tray-position = left
 cursor-click = pointer
@@ -119,19 +119,27 @@ label-foreground = #ffff00
 
 interval = 60
 
-[module/filesystem]
-type = internal/fs
+;[module/filesystem]
+;type = internal/fs
+;
+;spacing = 2
+;
+;mount-0 = /
+;mount-1 = /home
+;mount-2 = /home/data
+;
+;format-mounted = <label-mounted>
+;
+;label-mounted = %mountpoint%: %percentage_used%%
+;label-mounted-foreground = #ff9933
 
-spacing = 2
+[module/netspeed]
+type = custom/script
+exec = ~/.config/polybar/netspeed.sh
 
-mount-0 = /
-mount-1 = /home
-mount-2 = /home/data
-
-format-mounted = <label-mounted>
-
-label-mounted = %mountpoint%: %percentage_used%%
-label-mounted-foreground = #ff9933
+label = %output%
+label-foreground = #ff9933
+interval = 1
 
 [module/temperature]
 type = internal/temperature

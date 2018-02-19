@@ -18,7 +18,9 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/.idea": true,
-        "**/_ReSharper.Caches": true
+        "**/_ReSharper.Caches": true,
+        "**/node_modules": true,
+        "**/out": true
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,

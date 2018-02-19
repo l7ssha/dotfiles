@@ -5,7 +5,6 @@
 set autoread
 
 " Colors 
-colorscheme badwolf
 syntax enable 
 
 set foldcolumn=1
