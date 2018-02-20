@@ -1,0 +1,6 @@
+[
+    {
+        "key": "ctrl+alt+j",
+        "command": "editor.action.joinLines"
+    }
+]
