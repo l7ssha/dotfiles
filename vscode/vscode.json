@@ -5,7 +5,7 @@
     "explorer.confirmDelete": false,
     "html.format.wrapLineLength": 0,
     "files.autoSave": "onWindowChange",
-    "editor.fontSize": 13,
+    "editor.fontSize": 12,
     "editor.cursorStyle": "block",
     "editor.cursorBlinking": "solid",
     "workbench.editor.tabCloseButton": "left",
@@ -31,17 +31,28 @@
     "telemetry.enableTelemetry": false,
     "git.confirmSync": false,
     "workbench.colorTheme": "Better Solarized Dark",
+    "workbench.iconTheme": "vscode-great-icons",
     "editor.lineNumbers": "relative",
-    "cSpell.userWords": [
-        "kernelu"
-    ],
-    "cSpell.enabledLanguageIds": [
-        "html",
-        "latex",
-        "markdown",
-        "plaintext",
-        "pub",
-        "text",
-    ],
     "editor.minimap.enabled": false,
+    "editor.fontFamily": "'DejaVu Sans Mono', 'monospace', monospace",
+    "search.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.idea": true,
+        "**/_ReSharper.Caches": true,
+        "**/node_modules": true,
+        "**/out": true
+    },
+    "terminal.external.linuxExec": "sakura",
+    "css.fileExtensions": [
+        "css",
+        "scss",
+        "sass",
+        "less"
+    ],
+    "dismpd.ip": "localhost",
+    "dismpd.port": 1337
 }

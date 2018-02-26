@@ -177,7 +177,17 @@
     <chainQuitKey>C-g</chainQuitKey>
     <keybind key="W-d">
       <action name="Execute">
-        <command>dmenu_run</command>
+        <command>dmenu_run -fn 'DejaVu Sans Mono-9' -w HDMI-1</command>
+      </action>
+    </keybind>
+    <keybind key="W-t">
+      <action name="Execute">
+        <command>sakura</command>
+      </action>
+    </keybind>
+    <keybind key="W-m">
+      <action name="Execute">
+        <command>sakura -x ncmpcpp</command>
       </action>
     </keybind>
     <keybind key="W-s">
