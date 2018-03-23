@@ -2,7 +2,7 @@
 # /home/l7ssha/.nvidia-settings-rc
 #
 # Configuration file for nvidia-settings - the NVIDIA X Server Settings utility
-# Generated on Sat Feb  3 12:53:34 2018
+# Generated on Thu Mar 22 16:43:00 2018
 #
 
 # ConfigProperties:
@@ -27,9 +27,8 @@ Timer = Memory_Used_(GPU_0),Yes,3000
 0/AllowFlipping=1
 0/FSAAAppControlled=1
 0/LogAnisoAppControlled=1
-0/OpenGLImageSettings=2
+0/OpenGLImageSettings=1
 0/FSAAAppEnhanced=0
-0/XVideoSyncToDisplayID=HDMI-0
 [DPY:VGA-0]/RedBrightness=0.000000
 [DPY:VGA-0]/GreenBrightness=0.000000
 [DPY:VGA-0]/BlueBrightness=0.000000

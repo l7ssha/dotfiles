@@ -1,6 +1,5 @@
 [user]
-	name = l7ssha
-	fullname = Szymon Uglis
 	email = szymon.uglis@hotmail.com
+	name = l7ssha
 [credential]
 	helper = cache

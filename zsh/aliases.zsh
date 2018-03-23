@@ -7,7 +7,7 @@ alias screenshoot='maim -s | xclip -selection clipboard -t image/png'
 
 # Package managers
 alias pacman='sudo pacman'
-alias yaourt='yaourt --noconfirm'
+#alias yaourt='yaourt --noconfirm'
 
 # Github
 alias 'git commit'='git commit -m'

@@ -35,3 +35,5 @@ done
 
 # Commands disabled for now, becouse of low computer
 # neofetch
+LC_CTYPE=en_US.UTF-8
+LC_ALL=en_US.UTF-8

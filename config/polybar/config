@@ -35,7 +35,7 @@ module-margin-left = 1
 module-margin-right = 1
 
 modules-left = mpd
-modules-center =
+modules-center = 
 modules-right = netspeed system-uptime-pretty updates-arch-combined memory temperature cpu date
 
 tray-position = left
