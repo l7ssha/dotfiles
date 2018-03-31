@@ -1,17 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
-	<menu id="system-menu" label="System">
+	<menu id="powerMenu" label="Pawer Menu">
+		<item label="Turn Off Computer">
+			<action name="Execute">
+				<execute>shutdown now</execute>
+			</action>
+		</item>
+		<item label="Restart Computer">
+			<action name="Execute">
+				<execute>shutdown -r now</execute>
+			</action>
+		</item>
+		<item label="Log Out">
+			<action name="Exit"/>
+		</item>
+	</menu>
+	<menu id="system-menu" label="Settings">
+		<item label="ObKey">
+			<action name="Execute">
+				<execute>obkey</execute>
+			</action>
+		</item>
+		<item label="ObMenu">
+			<action name="Execute">
+				<execute>obmenu</execute>
+			</action>
+		</item>
+		<item label="ObConf">
+			<action name="Execute">
+				<execute>obconf</execute>
+			</action>
+		</item>
+		<item label="lxinput">
+			<action name="Execute">
+				<execute>lxinput</execute>
+			</action>
+		</item>
 		<item label="lxappearance">
 			<action name="Execute">
 				<execute>lxappearance</execute>
-			</action>
-		</item>
-		<item label="Openbox Configuration Manager">
-			<action name="Execute">
-				<command>obconf</command>
-				<startupnotify>
-					<enabled>yes</enabled>
-				</startupnotify>
 			</action>
 		</item>
 		<separator/>
@@ -20,33 +47,39 @@
 		</item>
 	</menu>
 	<menu id="root-menu" label="Openbox 3">
-    <item label="Sakura">
+		<item label="Leafpad">
 			<action name="Execute">
-        <execute>sakura</execute>
+				<execute>leafpad</execute>
 			</action>
 		</item>
-    <item label="Vivaldi">
+		<item label="IntelliJ Idea">
 			<action name="Execute">
-        <execute>vivaldi-snapshot</execute>
+				<execute>idea-ue-eap</execute>
 			</action>
 		</item>
+		<item label="Visual Studio Code">
+			<action name="Execute">
+				<execute>code</execute>
+			</action>
+		</item>
+		<separator/>
+		<item label="Music Player">
+			<action name="Execute">
+				<execute>termite -e ncmpcpp</execute>
+			</action>
+		</item>
+		<item label="Termite">
+			<action name="Execute">
+				<execute>termite</execute>
+			</action>
+		</item>
+		<item label="Opera">
+			<action name="Execute">
+				<execute>opera --new-window</execute>
+			</action>
+		</item>
+		<separator/>
 		<menu id="system-menu"/>
-		<item label="Log Out">
-			<action name="Exit">
-				<prompt>Are you sure?</prompt>
-			</action>
-		</item>
-    <item label="Restart">
-			<action name="Execute">
-				<prompt>Are you sure?</prompt>
-        <execute>shutdown -r now</execute>
-			</action>
-		</item>
-     <item label="Gimme some rest!">
-			<action name="Execute">
-				<prompt>Are you sure?</prompt>
-        <execute>shutdown now</execute>
-			</action>
-		</item>
+		<menu id="powerMenu"/>
 	</menu>
 </openbox_menu>
