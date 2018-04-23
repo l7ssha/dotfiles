@@ -176,7 +176,12 @@
     <chainQuitKey>C-g</chainQuitKey>
     <keybind key="W-d">
       <action name="Execute">
-        <command>dmenu_run -fn 'DejaVu Sans Mono-9' -w HDMI-1</command>
+        <command>dmenu_run -fn 'DejaVu Sans Mono-9' -m 0 -i</command>
+      </action>
+    </keybind>
+     <keybind key="W-n">
+      <action name="Execute">
+        <command>sh -c "/data/PROJEKTY/dmenuMPD/mpdCommander.sh localhost 1337"</command>
       </action>
     </keybind>
     <keybind key="W-t">

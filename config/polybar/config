@@ -6,6 +6,7 @@
 ;
 ;=====================================================
 
+
 [colors]
 background = #000
 background-alt = #444
@@ -137,7 +138,7 @@ interval = 60
 type = custom/script
 exec = ~/.config/polybar/netspeed.sh
 
-label = %output%
+label = %output:5%
 label-foreground = #ff9933
 interval = 1
 
