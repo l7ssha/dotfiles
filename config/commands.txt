@@ -1,0 +1,6 @@
+toggle
+stop
+next
+prev
+play
+volume
