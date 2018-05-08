@@ -4,6 +4,8 @@ compton --config /home/l7ssha/.compton &
 
 polybar l7ssha -r &
 
+emacs --daemon &
+
 plank &
 
 pcmanfm -d &

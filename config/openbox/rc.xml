@@ -173,13 +173,21 @@
     <!-- 'Left', 'Middle', 'Right' -->
   </dock>
   <keyboard>
+    <keybind key="W-F4">
+      <action name="Close"/>
+    </keybind>
+    <keybind key="W-Escape">
+      <action name="Lower"/>
+      <action name="FocusToBottom"/>
+      <action name="Unfocus"/>
+    </keybind>
     <chainQuitKey>C-g</chainQuitKey>
     <keybind key="W-d">
       <action name="Execute">
         <command>dmenu_run -fn 'DejaVu Sans Mono-9' -m 0 -i</command>
       </action>
     </keybind>
-     <keybind key="W-n">
+    <keybind key="W-n">
       <action name="Execute">
         <command>sh -c "/data/PROJEKTY/dmenuMPD/mpdCommander.sh localhost 1337"</command>
       </action>
@@ -217,67 +225,86 @@
         </finalactions>
       </action>
     </keybind>
-
     <keybind key="W-w">
       <keybind key="Left">
-         <action name="UnmaximizeFull"/>
-         <action name="MoveResizeTo"><x>0</x><y>0</y><height>97%</height><width>50%</width></action>
+        <action name="UnmaximizeFull"/>
+        <action name="MoveResizeTo">
+          <x>0</x>
+          <y>0</y>
+          <height>97%</height>
+          <width>50%</width>
+        </action>
       </keybind>
-
       <keybind key="Right">
-          <action name="UnmaximizeFull"/>
-          <action name="MoveResizeTo"><x>-0</x><y>0</y><height>97%</height><width>50%</width></action>
+        <action name="UnmaximizeFull"/>
+        <action name="MoveResizeTo">
+          <x>-0</x>
+          <y>0</y>
+          <height>97%</height>
+          <width>50%</width>
+        </action>
       </keybind>
-
       <keybind key="Up">
-          <action name="UnmaximizeFull"/>
-          <action name="MoveResizeTo"><x>0</x><y>0</y><width>100%</width><height>50%</height></action>
+        <action name="UnmaximizeFull"/>
+        <action name="MoveResizeTo">
+          <x>0</x>
+          <y>0</y>
+          <width>100%</width>
+          <height>50%</height>
+        </action>
       </keybind>
-
       <keybind key="Down">
-          <action name="UnmaximizeFull"/>
-          <action name="MoveResizeTo"><x>0</x><y>-0</y><width>100%</width><height>50%</height></action>
+        <action name="UnmaximizeFull"/>
+        <action name="MoveResizeTo">
+          <x>0</x>
+          <y>-0</y>
+          <width>100%</width>
+          <height>50%</height>
+        </action>
       </keybind>
-
       <keybind key="C-c">
-         <action name="MoveResizeTo"><x>center</x><y>center</y><width>80%</width><height>80%</height></action>
+        <action name="MoveResizeTo">
+          <x>center</x>
+          <y>center</y>
+          <width>80%</width>
+          <height>80%</height>
+        </action>
       </keybind>
-
       <keybind key="C-f">
-         <action name="Maximize" />
+        <action name="Maximize"/>
       </keybind>
-
-       <keybind key="C-Down">
-         <action name="Iconify" />
+      <keybind key="C-Down">
+        <action name="Iconify"/>
       </keybind>
-
-       <keybind key="C-W">
-         <action name="Close" />
+      <keybind key="C-W">
+        <action name="Close"/>
       </keybind>
     </keybind>
-
     <keybind key="W-q">
       <keybind key="2">
-          <action name="MoveResizeTo">
-            <monitor>2</monitor>
-            <x>center</x><y>center</y><width>80%</width><height>80%</height>
-          </action>
+        <action name="MoveResizeTo">
+          <monitor>2</monitor>
+          <x>center</x>
+          <y>center</y>
+          <width>80%</width>
+          <height>80%</height>
+        </action>
       </keybind>
-
-       <keybind key="1">
-          <action name="MoveResizeTo">
-            <monitor>1</monitor>
-            <x>center</x><y>center</y><width>80%</width><height>80%</height>
-          </action>
+      <keybind key="1">
+        <action name="MoveResizeTo">
+          <monitor>1</monitor>
+          <x>center</x>
+          <y>center</y>
+          <width>80%</width>
+          <height>80%</height>
+        </action>
       </keybind>
     </keybind>
-
     <keybind key="W-h">
       <action name="Execute">
         <command>termite -e htop</command>
       </action>
     </keybind>
-
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
@@ -292,7 +319,7 @@
     <!-- Set this to TRUE to move the mouse pointer across the desktop when
        switching due to hitting the edge of the screen -->
     <context name="Frame">
- <mousebind action="Press" button="A-Left">
+      <mousebind action="Press" button="A-Left">
         <action name="Focus"/>
         <action name="Raise"/>
       </mousebind>
@@ -623,8 +650,7 @@
         <y>default</y>
       </position>
     </application>
-
-     <application class="Termite">
+    <application class="Termite">
       <position force="no">
         <x>center</x>
         <y>center</y>
@@ -634,8 +660,7 @@
         <width> 70% </width>
       </size>
     </application>
-
-  <!--
+    <!--
     <application name="discord">
         <position force="no">
           <x>0</x>
