@@ -32,7 +32,7 @@
  '(markdown-command "markdown2" t)
  '(package-selected-packages
    (quote
-    (color-theme-sanityinc-tomorrow json-mode smart-tab preety-parens slime-company paredit company-slime parinfer smart-yank cider hungry-delete iedit expand-region gfm-mode markdown-mode company-tern js2-refactor tide indium all-the-icons neotree company flycheck atom-one-dark-theme color-theme counsel swiper ace-window org-bullets which-key try use-package)))
+    (neotree ac-html-bootstrap ac-html-csswatcher helm-gitignore helm-ag swiper-helm helm counsel-projectile projectile smartparens-html smartparens-config smartparens color-theme-sanityinc-tomorrow json-mode smart-tab preety-parens slime-company paredit company-slime parinfer smart-yank cider hungry-delete iedit expand-region gfm-mode markdown-mode company-tern js2-refactor tide indium company flycheck atom-one-dark-theme color-theme counsel ace-window org-bullets which-key try use-package)))
  '(tab-stop-list
    (quote
     (4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120)))
@@ -72,34 +72,32 @@
 (use-package color-theme-sanityinc-tomorrow
   :ensure t
   :config (progn
-        (require 'color-theme-sanityinc-tomorrow)
-        (color-theme-sanityinc-tomorrow--define-theme night)))
+            (require 'color-theme-sanityinc-tomorrow)
+            (color-theme-sanityinc-tomorrow--define-theme night)))
 
-(use-package counsel
+(use-package helm
+  :ensure t
+  :config (progn 
+            (global-set-key (kbd "M-x") 'helm-M-x)
+            (helm-mode 1)
+            (global-set-key (kbd "C-x C-f") 'helm-find-files)
+            (add-hook 'eshell-mode-hook
+                      (lambda ()
+                        (eshell-cmpl-initialize)
+                        (define-key eshell-mode-map [remap eshell-pcomplete] 'helm-esh-pcomplete)
+                        (define-key eshell-mode-map (kbd "M-p") 'helm-eshell-history)))))
+
+(use-package swiper-helm
+  :ensure t
+  :config
+  (global-set-key (kbd "C-s") 'swiper-helm)
+  (global-set-key (kbd "C-r") 'swiper-helm))
+
+(use-package helm-ag
   :ensure t)
 
-(use-package swiper
-  :ensure t
-  :config (progn)
-      (ivy-mode 1)
-      (setq ivy-use-virtual-buffers t)
-      (setq enable-recursive-minibuffers t)
-      (global-set-key "\C-s" 'swiper)
-      (global-set-key (kbd "C-c C-r") 'ivy-resume)
-      (global-set-key (kbd "<f6>") 'ivy-resume)
-      (global-set-key (kbd "M-x") 'counsel-M-x)
-      (global-set-key (kbd "C-x C-f") 'counsel-find-file)
-      (global-set-key (kbd "<f1> f") 'counsel-describe-function)
-      (global-set-key (kbd "<f1> v") 'counsel-describe-variable)
-      (global-set-key (kbd "<f1> l") 'counsel-find-library)
-      (global-set-key (kbd "<f2> i") 'counsel-info-lookup-symbol)
-      (global-set-key (kbd "<f2> u") 'counsel-unicode-char)
-      (global-set-key (kbd "C-c g") 'counsel-git)
-      (global-set-key (kbd "C-c j") 'counsel-git-grep)
-      (global-set-key (kbd "C-c k") 'counsel-ag)
-      (global-set-key (kbd "C-x l") 'counsel-locate)
-      (global-set-key (kbd "C-S-o") 'counsel-rhythmbox)
-      (define-key minibuffer-local-map (kbd "C-r") 'counsel-minibuffer-history))
+(use-package helm-gitignore
+  :ensure t)
 
 (use-package flycheck
   :ensure t
@@ -107,17 +105,45 @@
 
 (use-package company
   :ensure t
-  :init (add-hook 'after-init-hook 'global-company-mode))
+  :init (global-company-mode t))
 
-(use-package all-the-icons
+(use-package company-web
+  :ensure t
+  :config (progn
+            (setq company-tooltip-limit 20)
+            (setq company-tooltip-align-annotations 't)
+            (setq company-idle-delay .3)))
+
+(use-package ac-html-csswatcher
   :ensure t)
-  ;; :config (all-the-icons-install-fonts))
+
+(use-package ac-html-bootstrap
+  :ensure t)
 
 (use-package neotree
   :ensure t
-  :config (progn)
-      (global-set-key [f8] 'neotree-toggle)
-      (setq neo-theme (if (display-graphic-p) 'icons 'arrow)))
+  :config (global-set-key [f8] 'neotree-toggle))
+
+(use-package smartparens
+  :ensure t
+  :config (smartparens-global-mode 1))
+
+(use-package projectile
+  :ensure t
+  :config (projectile-mode))
+
+(setq projectile-completion-system 'helm)
+
+(use-package multiple-cursors
+  :ensure t
+  :config
+  (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+  (global-set-key (kbd "C->") 'mc/mark-next-like-this)
+  (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+  (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this))
+
+(use-package counsel-projectile
+  :ensure t) 
 
 (use-package js2-mode
   :ensure t
