@@ -1,4 +1,4 @@
-(setq inhibit-startup-message t)
+;(setq inhibit-startup-message t)
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 
@@ -26,13 +26,13 @@
  '(custom-enabled-themes (quote (sanityinc-tomorrow-night)))
  '(custom-safe-themes
    (quote
-    ("06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "6dd2b995238b4943431af56c5c9c0c825258c2de87b6c936ee88d6bb1e577cb9" default)))
+    ("3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "6dd2b995238b4943431af56c5c9c0c825258c2de87b6c936ee88d6bb1e577cb9" default)))
  '(fci-rule-color "#373b41")
  '(initial-frame-alist (quote ((fullscreen . maximized))))
  '(markdown-command "markdown2" t)
  '(package-selected-packages
    (quote
-    (neotree ac-html-bootstrap ac-html-csswatcher helm-gitignore helm-ag swiper-helm helm counsel-projectile projectile smartparens-html smartparens-config smartparens color-theme-sanityinc-tomorrow json-mode smart-tab preety-parens slime-company paredit company-slime parinfer smart-yank cider hungry-delete iedit expand-region gfm-mode markdown-mode company-tern js2-refactor tide indium company flycheck atom-one-dark-theme color-theme counsel ace-window org-bullets which-key try use-package)))
+    (web-mode rainbow-delimiters meghanda smart-mode-line smart-line-mode shackle neotree ac-html-bootstrap ac-html-csswatcher helm-gitignore helm-ag swiper-helm helm counsel-projectile projectile smartparens-html smartparens-config smartparens color-theme-sanityinc-tomorrow json-mode smart-tab preety-parens slime-company paredit company-slime parinfer smart-yank cider hungry-delete iedit expand-region gfm-mode markdown-mode company-tern js2-refactor tide indium company flycheck atom-one-dark-theme color-theme counsel ace-window org-bullets which-key try use-package)))
  '(tab-stop-list
    (quote
     (4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120)))
@@ -41,6 +41,8 @@
 
 (defvaralias 'c-basic-offset 'tab-width)
 (defvaralias 'cperl-indent-level 'tab-width)
+
+(global-linum-mode t)
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -77,7 +79,7 @@
 
 (use-package helm
   :ensure t
-  :config (progn 
+  :config (progn
             (global-set-key (kbd "M-x") 'helm-M-x)
             (helm-mode 1)
             (global-set-key (kbd "C-x C-f") 'helm-find-files)
@@ -86,6 +88,13 @@
                         (eshell-cmpl-initialize)
                         (define-key eshell-mode-map [remap eshell-pcomplete] 'helm-esh-pcomplete)
                         (define-key eshell-mode-map (kbd "M-p") 'helm-eshell-history)))))
+
+(use-package shackle
+  :ensure t
+  :config (progn
+            (setq helm-display-function 'pop-to-buffer) ; make helm play nice
+            (setq shackle-rules '(("\\`\\*[swiper|helm].*?\\*\\'" :regexp t :align t :size 0.4)))
+            (shackle-mode 1)))
 
 (use-package swiper-helm
   :ensure t
@@ -106,6 +115,24 @@
 (use-package company
   :ensure t
   :init (global-company-mode t))
+
+(use-package rainbow-delimiters
+  :ensure t
+  :config (add-hook 'prog-mode-hook #'rainbow-delimiters-mode))
+
+;(use-package meghanada
+;  :ensure t
+;  :config (progn
+;            (add-hook 'java-mode-hook
+;                      (lambda ()
+;                        ;; meghanada-mode on
+;                        (meghanada-mode t)
+;                        (rainbow-delimiters-mode t)
+;                        (meghanada-company-enable t)
+;                        (flycheck-mode +1)
+;                        (setq c-basic-offset 2)
+;                        ;; use code format
+;                        (add-hook 'before-save-hook 'meghanada-code-beautify-before-save)))
 
 (use-package company-web
   :ensure t
@@ -192,6 +219,12 @@
   :ensure t
   :config (global-hungry-delete-mode))
 
+(use-package smart-mode-line
+  :ensure t
+  :config
+  (setq sml/theme 'dark)
+  (sml/setup))
+
 (use-package expand-region
   :ensure t
   :config (global-set-key (kbd "C-=") 'er/expand-region))
@@ -277,3 +310,22 @@
 
 (global-set-key [\M-\S-up] 'move-line-up)
 (global-set-key [\M-\S-down] 'move-line-down)
+
+(defun insert-line-below ()
+  "Insert an empty line below the current line."
+  (interactive)
+  (save-excursion
+    (end-of-line)
+    (open-line 1)))
+
+(defun insert-line-above ()
+  "Insert an empty line above the current line."
+  (interactive)
+  (save-excursion
+    (end-of-line 0)
+    (open-line 1)))
+
+(global-set-key (kbd "C-c up") 'insert-line-above)
+(global-set-key (kbd "C-c down") 'insert-line-below)
+
+(global-set-key (kbd "C-c C-s") 'helm-do-grep-ag)
