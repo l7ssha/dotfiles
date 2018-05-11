@@ -8,7 +8,6 @@ set autoread
 syntax enable 
 
 set foldcolumn=1
-
 " Tabs
 set tabstop=4
 set softtabstop=4
