@@ -10,4 +10,4 @@ plank &
 
 pcmanfm -d &
 
-#/home/l7ssha/.config/lemonbar/lemonbar.sh | lemonbar HDMI-0 -p -B#ff000000 &
+#/home/l7ssha/.config/lemonbar/lemonbar.sh | lemonbar VGA-0 -p -B#ff000000 &

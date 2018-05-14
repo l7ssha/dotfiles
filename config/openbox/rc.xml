@@ -194,17 +194,22 @@
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>termite</command>
+        <command>st</command>
       </action>
     </keybind>
     <keybind key="W-m">
       <action name="Execute">
-        <command>termite -e ncmpcpp</command>
+        <command>st -e ncmpcpp</command>
       </action>
     </keybind>
     <keybind key="W-s">
       <action name="Execute">
         <command>sh ~/.config/openbox/screenshot.sh</command>
+      </action>
+    </keybind>
+    <keybind key="W-p">
+      <action name="Execute">
+        <command>pavucontrol</command>
       </action>
     </keybind>
     <keybind key="A-Tab">
@@ -650,6 +655,14 @@
         <y>default</y>
       </position>
     </application>
+
+    <application class="st-256color">
+       <position force="no">
+        <x>center</x>
+        <y>center</y>
+      </position>
+    </application>
+    
     <application class="Termite">
       <position force="no">
         <x>center</x>
@@ -659,6 +672,20 @@
         <height> 70% </height>
         <width> 70% </width>
       </size>
+    </application>
+    
+    <application class="Nemo">
+      <position force="no">
+        <x>center</x>
+        <y>center</y>
+      </position>
+    </application>
+	
+   <application class="File-roller">
+      <position force="no">
+        <x>center</x>
+        <y>center</y>
+      </position>
     </application>
     <!--
     <application name="discord">
