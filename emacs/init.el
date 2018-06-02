@@ -4,6 +4,11 @@
 
 (setq-default indent-tabs-mode nil)
 
+(add-hook 'java-mode-hook (lambda ()
+                                (setq c-basic-offset 4
+                                      tab-width 4
+                                      indent-tabs-mode t)))
+
 (require 'package)
 (setq package-enable-at-startup nil)
 (add-to-list 'package-archives
@@ -30,12 +35,15 @@
  '(fci-rule-color "#373b41")
  '(initial-frame-alist (quote ((fullscreen . maximized))))
  '(markdown-command "markdown" t)
+ '(meghanada-completion-matcher "fuzzy")
+ '(meghanada-full-text-search-enable t)
+ '(neo-autorefresh t)
+ '(neo-theme (quote nerd))
+ '(neo-window-width 40)
  '(package-selected-packages
    (quote
-    (yasnippet-snippets meghanada js2-mode multiple-cursors company-web web-mode rainbow-delimiters meghanda smart-mode-line smart-line-mode shackle neotree ac-html-bootstrap ac-html-csswatcher helm-gitignore helm-ag swiper-helm helm counsel-projectile projectile smartparens-html smartparens-config smartparens color-theme-sanityinc-tomorrow json-mode smart-tab preety-parens slime-company paredit company-slime parinfer smart-yank cider hungry-delete iedit expand-region gfm-mode markdown-mode company-tern js2-refactor tide indium company flycheck atom-one-dark-theme color-theme counsel ace-window org-bullets which-key try use-package)))
- '(tab-stop-list
-   (quote
-    (4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120)))
+    (ibuffer-sidebar dired-sidebar magit yasnippet-snippets meghanada js2-mode multiple-cursors company-web web-mode rainbow-delimiters meghanda smart-mode-line smart-line-mode shackle ac-html-bootstrap ac-html-csswatcher helm-gitignore helm-ag swiper-helm helm counsel-projectile projectile smartparens-html smartparens-config smartparens color-theme-sanityinc-tomorrow json-mode smart-tab preety-parens slime-company paredit company-slime parinfer smart-yank cider hungry-delete iedit expand-region gfm-mode markdown-mode company-tern js2-refactor tide indium company flycheck atom-one-dark-theme color-theme counsel ace-window org-bullets which-key try use-package)))
+ '(tab-stop-list (quote (4)))
  '(tab-width 4)
  '(which-key-mode t))
 
@@ -117,7 +125,7 @@
             ;; meghanada-mode on
             (meghanada-mode t)
             (flycheck-mode +1)
-            (setq c-basic-offset 2)
+            (setq c-basic-offset 4)
             ;; use code format
             (setq meghanada-java-path "java")
             (setq meghanada-maven-path "mvn")
@@ -141,6 +149,10 @@
 (use-package yasnippet
   :ensure t
   :config
+  (setq yas-snippet-dirs '("~/.emacs.d/snippets"))
+  ;;(add-hook 'snippet-mode-hook '(lambda ()
+                                ;;  (auto-fill-mode -1)))
+  ;;(add-to-list 'warning-suppress-types '(yasnippet backquote-change))
   (yas-reload-all)
   (add-hook 'prog-mode-hook #'yas-minor-mode))
 
@@ -157,9 +169,25 @@
 (use-package ac-html-bootstrap
   :ensure t)
 
-(use-package neotree
+(use-package dired-sidebar
   :ensure t
-  :config (global-set-key [f8] 'neotree-toggle))
+  :config (progn
+            (setq dired-sidebar-theme 'nerd)
+            (setq dired-sidebar-use-magit-integration t)
+            (setq dired-sidebar-use-term-integration t)))
+
+(use-package ibuffer-sidebar
+  :load-path "~/.emacs.d/fork/ibuffer-sidebar"
+  :ensure t
+  :commands (ibuffer-sidebar-toggle-sidebar))
+
+(defun +sidebar-toggle ()
+  "Toggle both `dired-sidebar' and `ibuffer-sidebar'."
+  (interactive)
+  (dired-sidebar-toggle-sidebar)
+  (ibuffer-sidebar-toggle-sidebar))
+
+(global-set-key [f8] '+sidebar-toggle)
 
 (use-package smartparens
   :ensure t
@@ -243,6 +271,9 @@
   :ensure t)
 
 (use-package json-mode
+  :ensure t)
+
+(use-package magit
   :ensure t)
 
 (defun setup-tide-mode ()
@@ -339,3 +370,8 @@
 (global-set-key (kbd "C-c down") 'insert-line-below)
 
 (global-set-key (kbd "C-c C-s") 'helm-do-grep-ag)
+
+(defun insert-current-date ()
+  "Inserts current date."
+  (interactive)
+  (insert (shell-command-to-string "echo -n $(date +%Y-%m-%d)")))
