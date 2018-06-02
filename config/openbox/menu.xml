@@ -65,12 +65,12 @@
 		<separator/>
 		<item label="Music Player">
 			<action name="Execute">
-				<execute>termite -e ncmpcpp</execute>
+				<execute>st -e ncmpcpp</execute>
 			</action>
 		</item>
-		<item label="Termite">
+		<item label="Terminal">
 			<action name="Execute">
-				<execute>termite</execute>
+				<execute>st</execute>
 			</action>
 		</item>
 		<item label="Opera">
