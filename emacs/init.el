@@ -29,10 +29,10 @@
     ("3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "6dd2b995238b4943431af56c5c9c0c825258c2de87b6c936ee88d6bb1e577cb9" default)))
  '(fci-rule-color "#373b41")
  '(initial-frame-alist (quote ((fullscreen . maximized))))
- '(markdown-command "markdown2" t)
+ '(markdown-command "markdown" t)
  '(package-selected-packages
    (quote
-    (web-mode rainbow-delimiters meghanda smart-mode-line smart-line-mode shackle neotree ac-html-bootstrap ac-html-csswatcher helm-gitignore helm-ag swiper-helm helm counsel-projectile projectile smartparens-html smartparens-config smartparens color-theme-sanityinc-tomorrow json-mode smart-tab preety-parens slime-company paredit company-slime parinfer smart-yank cider hungry-delete iedit expand-region gfm-mode markdown-mode company-tern js2-refactor tide indium company flycheck atom-one-dark-theme color-theme counsel ace-window org-bullets which-key try use-package)))
+    (yasnippet-snippets meghanada js2-mode multiple-cursors company-web web-mode rainbow-delimiters meghanda smart-mode-line smart-line-mode shackle neotree ac-html-bootstrap ac-html-csswatcher helm-gitignore helm-ag swiper-helm helm counsel-projectile projectile smartparens-html smartparens-config smartparens color-theme-sanityinc-tomorrow json-mode smart-tab preety-parens slime-company paredit company-slime parinfer smart-yank cider hungry-delete iedit expand-region gfm-mode markdown-mode company-tern js2-refactor tide indium company flycheck atom-one-dark-theme color-theme counsel ace-window org-bullets which-key try use-package)))
  '(tab-stop-list
    (quote
     (4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120)))
@@ -53,7 +53,7 @@
 
 (blink-cursor-mode 0)
 (set-cursor-color "#ffffff")
-(set-face-attribute 'default nil :font "DejaVu Sans Mono-9")
+(set-face-attribute 'default nil :font "DejaVuSansMono Nerd Font-10")
 
 (use-package try
   :ensure t)
@@ -82,6 +82,7 @@
   :config (progn
             (global-set-key (kbd "M-x") 'helm-M-x)
             (helm-mode 1)
+            (setq helm-split-window-default-side 'other)
             (global-set-key (kbd "C-x C-f") 'helm-find-files)
             (add-hook 'eshell-mode-hook
                       (lambda ()
@@ -92,7 +93,7 @@
 (use-package shackle
   :ensure t
   :config (progn
-            (setq helm-display-function 'pop-to-buffer) ; make helm play nice
+            (setq helm-display-function #'pop-to-buffer) ; make helm play nice
             (setq shackle-rules '(("\\`\\*[swiper|helm].*?\\*\\'" :regexp t :align t :size 0.4)))
             (shackle-mode 1)))
 
@@ -108,6 +109,20 @@
 (use-package helm-gitignore
   :ensure t)
 
+(use-package meghanada
+  :ensure t
+  :config
+  (add-hook 'java-mode-hook
+          (lambda ()
+            ;; meghanada-mode on
+            (meghanada-mode t)
+            (flycheck-mode +1)
+            (setq c-basic-offset 2)
+            ;; use code format
+            (setq meghanada-java-path "java")
+            (setq meghanada-maven-path "mvn")
+            (add-hook 'before-save-hook 'meghanada-code-beautify-before-save))))
+
 (use-package flycheck
   :ensure t
   :init (global-flycheck-mode t))
@@ -120,19 +135,14 @@
   :ensure t
   :config (add-hook 'prog-mode-hook #'rainbow-delimiters-mode))
 
-;(use-package meghanada
-;  :ensure t
-;  :config (progn
-;            (add-hook 'java-mode-hook
-;                      (lambda ()
-;                        ;; meghanada-mode on
-;                        (meghanada-mode t)
-;                        (rainbow-delimiters-mode t)
-;                        (meghanada-company-enable t)
-;                        (flycheck-mode +1)
-;                        (setq c-basic-offset 2)
-;                        ;; use code format
-;                        (add-hook 'before-save-hook 'meghanada-code-beautify-before-save)))
+(use-package yasnippet-snippets
+  :ensure t)
+
+(use-package yasnippet
+  :ensure t
+  :config
+  (yas-reload-all)
+  (add-hook 'prog-mode-hook #'yas-minor-mode))
 
 (use-package company-web
   :ensure t
