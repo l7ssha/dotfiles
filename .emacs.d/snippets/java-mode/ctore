@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ctore
+# key: ctore
+# --
+public ${1:`(file-name-sans-extension (buffer-name))`}() { }$0

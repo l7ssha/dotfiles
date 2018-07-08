@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: header
+# key: header
+# --
+// `(buffer-name)`
+//
+// Date created: `(format-time-string "%d-%m-%Y")`
+// Author: Szymon 'l7ssha' Uglis

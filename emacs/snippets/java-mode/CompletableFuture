@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: CompletableFuture
-# key: cf
-# --
-
-CompletableFuture.supplyAsync(() -> ${1:function}) $0

@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: Header
-# key: header
-# --
-// Date created: `(insert-current-date)`
-// Author: Szymon 'l7ssha' Uglis
-$0

@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: javadoc
+# key: docs
+# --
+/**
+ * ${1:Documentation}
+ * @return ${2:Returns}
+ */ $0
+ 

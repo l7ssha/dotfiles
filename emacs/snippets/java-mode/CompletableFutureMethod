@@ -1,9 +1,0 @@
-# -*- mode: snippet -*-
-# name: CompletableFutureMethod
-# key: cfm
-# --
-
-public CompletableFuture<${1:Type}> ${2:Name}(${3:args}) {
-    return CompletableFuture.supplyAsync(() -> ${4:Method})
-}
-$0
