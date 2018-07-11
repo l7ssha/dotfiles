@@ -28,15 +28,31 @@ antigen theme agnoster
 # Tell Antigen that you're done.
 antigen apply
 
-# Autoload
-setopt EXTENDED_GLOB
-for file in ~/.zsh/*.zsh; do
-    if [[ -e $file ]]; then
-        . $file
-    fi
-done
+export GOPATH=$HOME/go
+path+=('/opt/dart-sdk-dev/bin')
+path+=('/home/l7ssha/go/bin')
 
-# Commands disabled for now, becouse of low computer
-# neofetch
-#LC_CTYPE=en_US.UTF-8
-#LC_ALL=en_US.UTF-8
+export MPD_HOST=127.0.0.1
+export MPD_PORT=1337
+export JAVA_HOME="/usr/lib/jvm/java-8-openjdk"
+export IDEA_JDK="/usr/lib/jvm/java-8-openjdk"
+export JAVA_JDK="/usr/lib/jvm/java-8-openjdk"
+path+=('/home/l7ssha/.pub-cache/bin')
+
+alias cls=clear
+alias code=code-insiders
+alias npm='sudo npm --unsafe-perm'
+alias dotnet='sudo dotnet'
+
+alias screenshoot='maim -s | xclip -selection clipboard -t image/png'
+
+# Package managers
+alias pacman='sudo pacman'
+#alias yaourt='yaourt --noconfirm'
+
+# Github
+alias 'git commit'='git commit -m'
+alias gc='git commit -m'
+
+# TMUX
+tmux attach
