@@ -10,8 +10,6 @@ antigen use oh-my-zsh
 antigen bundle git:
 antigen bundle heroku
 antigen bundle command-not-found
-antigen bundle rails
-antigen bundle ruby
 antigen bundle archlinux
 antigen bundle bundler
 
@@ -31,12 +29,14 @@ antigen apply
 export GOPATH=$HOME/go
 path+=('/opt/dart-sdk-dev/bin')
 path+=('/home/l7ssha/go/bin')
+path+=('/home/l7ssha/.flutter/bin')
 
 export MPD_HOST=127.0.0.1
 export MPD_PORT=1337
-export JAVA_HOME="/usr/lib/jvm/java-8-openjdk"
-export IDEA_JDK="/usr/lib/jvm/java-8-openjdk"
-export JAVA_JDK="/usr/lib/jvm/java-8-openjdk"
+export JAVA_HOME="/usr/lib/jvm/java-10-openjdk"
+export IDEA_JDK="/usr/lib/jvm/java-10-openjdk"
+export JAVA_JDK="/usr/lib/jvm/java-10-openjdk"
+
 path+=('/home/l7ssha/.pub-cache/bin')
 
 alias cls=clear

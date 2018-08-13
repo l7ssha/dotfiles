@@ -29,10 +29,12 @@
 (pending-delete-mode 1)
 (global-visual-line-mode 1)
 (scroll-bar-mode -1)
+
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+(set-face-attribute 'default (selected-frame) :height 95)
 (set-face-attribute 'default nil :font "DejaVuSansMono Nerd Font-9")
 (load-theme 'sanityinc-tomorrow-night)
 (set-cursor-color "#ffffff")
-(add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 (use-package telephone-line
   :ensure t
@@ -183,13 +185,18 @@
   :ensure t
   :init (global-flycheck-mode t))
 
+(use-package flycheck-inline
+  :ensure t
+  :config (with-eval-after-load 'flycheck
+            (flycheck-inline-mode)))
+
 ;;; POPWIN
 
 (use-package popwin
   :ensure t
   :config
   (setq display-buffer-function 'popwin:display-buffer)
-  (setq helm-split-window-preferred-function 'ignore))
+  (setq helm-split-window-preferred-function 'ignore)
   (push '("^\*helm .+\*$" :regexp t :height 40) popwin:special-display-config)
   (push '("^\*helm-.+\*$" :regexp t :height 40) popwin:special-display-config)
   (push '("\*swiper.+\*" :regexp t :height 40) popwin:special-display-config)
@@ -204,36 +211,11 @@
 
 ;;; PROGRAMMING
 
-(use-package exec-path-from-shell
-  :ensure t
-  :config (progn
-            (exec-path-from-shell-initialize)
-            (exec-path-from-shell-copy-env "GOPATH")))
+(use-package cquery
+  :ensure t)
 
-(use-package go-mode
-  :ensure t
-  :config (progn
-            (add-to-list 'auto-mode-alist '("\\.go\\'" . go-mode))
-            (setq gofmt-command "goimports")
-            (use-package company-go
-              :ensure t)
-            (use-package go-eldoc
-              :ensure t)
-            (add-to-list 'load-path "/home/l7ssha/go/src/github.com/dougm/goflymake")
-            (require 'go-flycheck)
-            (add-hook 'go-mode-hook
-                      (lambda ()
-                        (set (make-local-variable 'company-backends) '(company-go))
-                        (company-mode)))
-            (add-hook 'go-mode-hook 'go-eldoc-setup)
-            (add-hook 'go-mode-hook 'company-mode)
-            (add-hook 'before-save-hook 'gofmt-before-save)))
-
-(defun my-go-mode-hook ()
-  "Custom hook fo go mode."
-  (local-set-key (kbd "M-.") 'godef-jump))
-
-(add-hook 'go-mode 'my-go-mode-hook)
+(use-package lua-mode
+  :ensure t)
 
 (use-package gradle-mode
   :ensure t
@@ -324,19 +306,10 @@ URL to open in browser"
 (use-package lsp-mode
   :ensure t
   :config
-  (lsp-define-stdio-client lsp-sh
-                           "sh"
-                           #'(lambda () default-directory)
-                           '("bash-language-server" "start"))
   (lsp-define-stdio-client lsp-dart
                            "dart"
                            #'(lambda () default-directory)
-                           '("/home/l7ssha/.pub-cache/bin/dart_language_server"))
-  (lsp-define-stdio-client lsp-go
-                           "go"
-                           #'(lambda () default-directory)
-                           '("/home/l7ssha/go/bin/go-langserver"))
-  (add-hook 'sh-mode-hook #'lsp-sh-enable))
+                           '("/home/l7ssha/.pub-cache/bin/dart_language_server")))
 
 (use-package lsp-ui
   :ensure t
@@ -376,10 +349,6 @@ URL to open in browser"
 
 (add-hook 'js-mode-hook 'my-js-hook)
 
-(use-package cquery
-  :ensure t
-  :config (setq cquery-executable "/usr/bin/cquery"))
-
 ;;; OTHER PACKAGES
 
 (let ((default-directory  "~/.emacs.d/pkgs/"))
@@ -387,8 +356,7 @@ URL to open in browser"
   (normal-top-level-add-subdirs-to-load-path)
   (require 'tiny)
   (global-set-key (kbd "C-}") 'tiny-expand)
-  (require 'indent-guide)
-  (indent-guide-global-mode))
+  (require 'indent-guide))
 
 (use-package iedit
   :ensure t)
@@ -423,14 +391,9 @@ URL to open in browser"
 (use-package neotree
   :ensure t
   :config (global-set-key [f8] 'neotree-toggle)
-  (setq projectile-switch-project-action 'neotree-projectile-action)
   (setq neo-smart-open t)
   (setq neo-window-fixed-size nil)
   (setq neo-window-width 50))
-
-(use-package flycheck
-  :ensure t
-  :init (global-flycheck-mode t))
 
 (use-package rainbow-delimiters
   :ensure t
@@ -494,7 +457,7 @@ URL to open in browser"
  '(main-line-separator-style (quote chamfer))
  '(package-selected-packages
    (quote
-    (neotree neo-tree use-package exec-path-from-shell go-eldoc company-go go-mode elcord slime true all-the-icons-dired company-quickhelp iedit google-c-style cquery crystal-mode ruby-end projectile-rails robe helm-ag ace-window telephone-line doom-themes moe-theme mode-theme spacemacs-theme nimbus-theme soothe-theme color-theme-sanityinc-tomorrow flymd lsp-javascript-typescript lsp-java ls-java dart-mode lsp-intellij company-lsp lsp-css lsp-ui lsp-mode winum winun swiper-helm helm-swiper web-mode smartparens smart-yank smart-tab rainbow-delimiters projectile popwin parinfer multiple-cursors markdown-mode magit hungry-delete helm-gitignore gradle-mode expand-region ensime drag-stuff company-web alect-themes ac-html-csswatcher ac-html-bootstrap)))
+    (lua-mode flycheck-rust flycheck-inline racer cargo lsp-rust neotree neo-tree use-package exec-path-from-shell go-eldoc company-go go-mode elcord slime true all-the-icons-dired company-quickhelp iedit google-c-style cquery crystal-mode ruby-end robe helm-ag ace-window telephone-line doom-themes moe-theme mode-theme spacemacs-theme nimbus-theme soothe-theme color-theme-sanityinc-tomorrow flymd lsp-javascript-typescript lsp-java ls-java dart-mode lsp-intellij company-lsp lsp-css lsp-ui lsp-mode winum winun swiper-helm helm-swiper web-mode smartparens smart-yank smart-tab rainbow-delimiters popwin parinfer multiple-cursors markdown-mode magit hungry-delete helm-gitignore gradle-mode expand-region ensime drag-stuff company-web alect-themes ac-html-csswatcher ac-html-bootstrap)))
  '(powerline-color1 "#1E1E1E")
  '(powerline-color2 "#111111"))
 (custom-set-faces

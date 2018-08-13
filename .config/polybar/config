@@ -1,12 +1,3 @@
-;=====================================================
-;
-;   Author: Szymon 'l7ssha' Uglis
-;   https://l7ssha.pl
-;   https://github.com/l7ssha
-;
-;=====================================================
-
-
 [colors]
 background = #000
 background-alt = #444
@@ -15,6 +6,40 @@ foreground-alt = #33cc33
 primary = #ffb52a
 secondary = #e60053
 alert = #f00
+
+[bar/l7ssha2]
+
+monitor = ${env:MONITOR:VGA-0}
+width = 100%
+height = 18
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 0
+line-color = #f00
+
+padding-left = 0
+padding-right = 0
+
+font-0 = DejaVuSansMono Nerd Font:pixelsize=10;3
+
+module-margin-left = 0
+module-margin-right = 0
+
+wm-restack = bspwm
+
+modules-left =
+modules-center = 
+modules-right = bspwm
+
+tray-position = left
+cursor-click = pointer
+cursor-scroll = ns-resize
+tray-detached = false
+tray-maxsize = 14
+tray-transparent = false
+tray-padding = 1
 
 [bar/l7ssha]
 monitor = ${env:MONITOR:HDMI-0}
@@ -30,40 +55,148 @@ line-color = #f00
 padding-left = 0
 padding-right = 0
 
-font-0 = DejaVuSansMono Nerd Font:pixelsize=10;0
+font-0 = DejaVuSansMono Nerd Font:pixelsize=10;3
 
-module-margin-left = 1
-module-margin-right = 1
+module-margin-left = 0
+module-margin-right = 0
 
-modules-left = mpd
+wm-restack = bspwm
+modules-left = bspwm mpd
 modules-center = 
-modules-right = netspeed system-uptime-pretty updates-arch-combined memory temperature cpu date
+modules-right = uptime razer-vol updates network ram swap gputemp cpu-temp cpu date
 
-tray-position = left
-cursor-click = pointer
-cursor-scroll = ns-resize
-tray-detached = false
-tray-maxsize = 14
-tray-transparent = false
-tray-padding = 1
+[module/gputemp]
+type = custom/script
+exec = ~/.config/polybar/gputemp.sh
+interval = 5
 
-separator = "|"
+label = " %output%"
+format = " <label>°C "
+format-background = #e5ff00
+format-foreground = #000000
+
+[module/updates]
+type = custom/script
+exec = ~/.config/polybar/updates.sh
+interval = 600
+
+label = " %output%"
+format = "<label> update(s) "
+format-background = #5d00ff
+
+[module/uptime]
+type = custom/script
+exec = ~/.config/polybar/uptime.sh
+interval = 30
+
+format = " <label> "
+
+[module/bspwm]
+type = internal/bspwm
+
+pin-workspaces = true
+inline-mode = false
+enable-click = false
+enable-scroll = false
+reverse-scroll = false
+fuzzy-match = true
+
+format = " <label-state> "
+
+label-empty = " %name% "
+label-occupied = " %name% "
+label-occupied-foreground = #6870ff
+
+label-urgent = " %name% "
+label-urgent-foreground = #ff0000
+
+label-focused = " %name% "
+label-focused-foreground = #ffffff
+label-focused-background = #3f3f3f
+
+[module/cpu-temp]
+type = internal/temperature
+
+interval = 1
+thermal-zone = 0
+hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon0/temp2_input
+warn-temperature = 60
+
+format = " <label> "
+format-warn = " <label-warn> "
+
+label = " %temperature-c% "
+label-warn = " %temperature-c% "
+label-warn-foreground = #f00
+
+label-background = #7394FF
+label-warn-background = #7394FF
 
 [module/mpd]
 type = internal/mpd
-format-online = <label-song>
+
 host = 127.0.0.1
 port = 1337
+interval = 2
 
-label-song-maxlen = 40
-;label-song-ellipsis = true
+format-online = <label-song>
+
+label-song = %artist% - %title%
+
+[module/network]
+type = internal/network
+interface = ens33
+
+format-connected = <label-connected>
+
+label-connected = " %downspeed:9% ▼ %upspeed:9% ▲ %local_ip% "
+label-disconnected = " 0.0.0.0 "
+
+label-connected-background = #FF73FF
+label-disconnected-background = #FF73FF
+label-connected-foreground  = #000
+label-disconnected-foreground = #000
+
+[module/razer-vol]
+type = internal/pulseaudio
+
+sink = alsa_output.usb-Razer_Razer_Kraken_USB-00.analog-stereo
+use-ui-max = true
+
+format-volume-background = #610047
+format-volume = "<ramp-volume> <label-volume> "
+label-muted = " Ø muted "
+format-muted-background = #610047
+
+ramp-volume-0 = " ▁"
+ramp-volume-1 = " ▄"
+ramp-volume-2 = " █"
+
+[module/ram]
+type = internal/memory
+interval = 10
+format = " <label> "
+
+label-foreground = #000000
+format-background = #00ff00
+
+label = " %gb_used%/%gb_total% %percentage_used%%"
+
+[module/swap]
+type = internal/memory
+interval = 10
+format = " <label> "
+
+label-foreground = #ffffff
+format-background = #035700
+
+label = " %gb_swap_used%/%gb_swap_total% %percentage_swap_used%%"
 
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = "CPU "
-format = <label> <ramp-coreload>
-label = %percentage:2%%
+format = " <label> <ramp-coreload> "
+label = " %percentage:2%%"
 
 format-prefix-foreground = #ff6699
 label-foreground = #ff6699
@@ -78,82 +211,12 @@ ramp-coreload-5 = ▆
 ramp-coreload-6 = ▇
 ramp-coreload-7 = █
 
-[module/memory]
-type = internal/memory
-interval = 10
-format = <label>
-
-format-prefix = "RAM "
-
-format-prefix-foreground = #cc00cc
-label-foreground = #cc00cc
-
-label = %gb_used%/%gb_total%
-
 [module/date]
 type = internal/date
 interval = 30
 
-date = "%a %d-%m-%Y"
+date = " %a %d-%m-%Y"
 time = %H:%M
 label = "%date% %time% "
-label-foreground = #00ff9d
-
-[module/updates-arch-combined]
-type = custom/script
-format-prefix = "Updates "
-format-prefix-foreground = #fff
-exec = ~/.config/polybar/updates-arch-combined.sh
-
-label = %output%
-label-foreground = #fff
-interval = 600
-
-[module/system-uptime-pretty]
-type = custom/script
-format-prefix = "Uptime "
-format-prefix-foreground = #ffff00
-exec = ~/.config/polybar/system-uptime-pretty.sh
-
-label = %output%
-label-foreground = #ffff00
-
-interval = 60
-
-;[module/filesystem]
-;type = internal/fs
-;
-;spacing = 2
-;
-;mount-0 = /
-;mount-1 = /home
-;mount-2 = /home/data
-;
-;format-mounted = <label-mounted>
-;
-;label-mounted = %mountpoint%: %percentage_used%%
-;label-mounted-foreground = #ff9933
-
-[module/netspeed]
-type = custom/script
-exec = ~/.config/polybar/netspeed.sh
-
-label = %output:5%
-label-foreground = #ff9933
-interval = 1
-
-[module/temperature]
-type = internal/temperature
-
-interval = 2
-
-thermal-zone = 0
-hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon0/temp2_input
-units = false
-
-format = <label>
-label = Temp %temperature%
-label-foreground = #ff6699
-
-[settings]
-screenchange-reload = true
+label-foreground = #ffffff
+label-background = #0000ff
