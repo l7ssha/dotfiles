@@ -1,9 +1,5 @@
-;;; init.el --- l7ssha's init file
-;;; Commentary:
-;;
-;;; Code:
 (require 'package)
-;(setq package-enable-at-startup nil)
+;(setq package-enable-at-startup pnil)
 
 (add-to-list 'package-archives
         '("melpa" . "https://melpa.org/packages/"))
@@ -18,7 +14,8 @@
 (setq custom-safe-themes t)
 (setq-default indent-tabs-mode nil)
 
-;;; THEMES
+;;; THEME
+(set-frame-font "DejaVu Sans Mono 9" nil t)
 
 (tool-bar-mode -1)
 (menu-bar-mode -1)
@@ -32,8 +29,21 @@
 
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 (set-face-attribute 'default (selected-frame) :height 95)
-(set-face-attribute 'default nil :font "DejaVuSansMono Nerd Font-9")
-(load-theme 'sanityinc-tomorrow-night)
+
+(use-package klere-theme
+  :ensure t)
+
+(if (daemonp)
+    (add-hook 'after-make-frame-functions (lambda (frame)
+                                            (select-frame frame)
+                                            (when (display-graphic-p frame)
+                                              (load-theme 'klere t)
+                                              (set-frame-font "DejaVu Sans Mono 9" nil t)
+                                              (set-cursor-color "#ffffff"))))
+  (load-theme 'klere t))
+
+
+
 (set-cursor-color "#ffffff")
 
 (use-package telephone-line
@@ -43,8 +53,6 @@
 (use-package elcord
   :ensure t
   :config (elcord-mode))
-
-;;; HELM
 
 (use-package helm
   :ensure t
@@ -93,24 +101,27 @@
 (use-package company-web
   :ensure t)
 
-(use-package ac-html-csswatcher
-  :ensure t)
+(use-package flycheck
+  :ensure t
+  :init (global-flycheck-mode t))
 
-(use-package ac-html-bootstrap
-  :ensure t)
+(use-package flycheck-inline
+  :ensure t
+  :config (with-eval-after-load 'flycheck
+            (flycheck-inline-mode)))
 
 ;;; YASNIPPET
 
 (use-package yasnippet
   :ensure t
   :config
-  (setq yas-snippet-dirs '("~/.emacs.d/snippets/"
-                           "~/.emacs.d/yasnippet-snippets/snippets"
-                           "~/.emacs.d/yasnippet-java-mode/snippets"))
   (add-hook 'snippet-mode-hook '(lambda ()
                                   (auto-fill-mode -1)))
   ;;(add-to-list 'company-backends 'company-yasnippet)
   (yas-global-mode 1))
+
+(use-package yasnippet-snippets
+  :ensure t)
 
 (defun check-expansion ()
   "Check if there is possible to expand."
@@ -179,17 +190,6 @@
   (define-key company-active-map [tab] 'expand-snippet-or-complete-selection)
   (define-key company-active-map (kbd "TAB") 'expand-snippet-or-complete-selection))
 
-;;; FLYCHECK
-
-(use-package flycheck
-  :ensure t
-  :init (global-flycheck-mode t))
-
-(use-package flycheck-inline
-  :ensure t
-  :config (with-eval-after-load 'flycheck
-            (flycheck-inline-mode)))
-
 ;;; POPWIN
 
 (use-package popwin
@@ -209,10 +209,30 @@
   :config (global-set-key (kbd "M-o") 'ace-window)
   (ace-window-display-mode 1))
 
-;;; PROGRAMMING
+;;; LSP
 
-(use-package cquery
+(use-package lsp-mode
   :ensure t)
+
+(require 'lsp-clients)
+
+(use-package lsp-ui
+  :ensure t
+  :config (add-hook 'lsp-mode-hook 'lsp-ui-mode))
+
+(use-package company-lsp
+  :ensure t
+  :config (push 'company-lsp company-backends))
+
+(use-package lsp-java
+  :ensure t
+  :config (add-hook 'java-mode-hook #'lsp-java-enable)
+  (add-hook 'java-mode-hook (lambda ()
+                              (setq lsp-inhibit-message t
+                                    lsp-eldoc-render-all nil)
+                              (setq company-lsp-enable-snippet t
+                                    company-lsp-cache-candidates t))))
+;;; PROGRAMMING
 
 (use-package lua-mode
   :ensure t)
@@ -285,78 +305,10 @@ URL to open in browser"
 (use-package sbt-mode
   :ensure t)
 
-;(use-package meghanada
-;  :ensure t
-;  :config
-;  (add-hook 'java-mode-hook
-;            (lambda ()
-;              ;; meghanada-mode on
-;              (meghanada-mode t)
-;              (flycheck-mode +1)
-;              (setq c-basic-offset 4)
-;              ;; use code format
-;              (setq meghanada-java-path "java")
-;              (setq meghanada-maven-path "mvn"))
-
 (use-package dart-mode
   :ensure t)
 
-;;; LSP - LAMNGUAGE SERVER PROTOCOL
-
-(use-package lsp-mode
-  :ensure t
-  :config
-  (lsp-define-stdio-client lsp-dart
-                           "dart"
-                           #'(lambda () default-directory)
-                           '("/home/l7ssha/.pub-cache/bin/dart_language_server")))
-
-(use-package lsp-ui
-  :ensure t
-  :config (add-hook 'lsp-mode-hook 'lsp-ui-mode))
-
-(use-package company-lsp
-  :ensure t
-  :config (push 'company-lsp company-backends))
-
-(use-package lsp-java
-  :ensure t
-  :config (add-hook 'java-mode-hook #'lsp-java-enable)
-  (add-hook 'java-mode-hook (lambda ()
-                              (setq lsp-inhibit-message t
-                                    lsp-eldoc-render-all nil
-                                    lsp-highlight-symbol-at-point nil)
-                              (setq company-lsp-enable-snippet t
-                                    company-lsp-cache-candidates t))))
-
-(use-package lsp-javascript-typescript
-  :ensure t
-  :config (progn
-            (add-hook 'js-mode-hook #'lsp-javascript-typescript-enable)
-            (add-hook 'typescript-mode-hook #'lsp-javascript-typescript-enable) ;; for typescript support
-            (add-hook 'js3-mode-hook #'lsp-javascript-typescript-enable) ;; for js3-mode support
-            (add-hook 'rjsx-mode #'lsp-javascript-typescript-enable))) ;; for rjsx-mode support
-
-(defun my-company-transformer (candidates)
-  "Custom company transformer.  Accepts CANDIDATES."
-  (let ((completion-ignore-case t))
-    (all-completions (company-grab-symbol) candidates)))
-
-(defun my-js-hook nil
-  "Custom js hook."
-  (make-local-variable 'company-transformers)
-  (push 'my-company-transformer company-transformers))
-
-(add-hook 'js-mode-hook 'my-js-hook)
-
-;;; OTHER PACKAGES
-
-(let ((default-directory  "~/.emacs.d/pkgs/"))
-  (normal-top-level-add-to-load-path '("."))
-  (normal-top-level-add-subdirs-to-load-path)
-  (require 'tiny)
-  (global-set-key (kbd "C-}") 'tiny-expand)
-  (require 'indent-guide))
+;;; OTHER
 
 (use-package iedit
   :ensure t)
@@ -385,6 +337,7 @@ URL to open in browser"
   :ensure t
   :config (projectile-mode)
   (setq projectile-completion-system 'helm)
+  (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
   (setq projectile-globally-ignored-directories '( "out" "bin" ".gradle" "gradle" "output" ".meghanada" ".idea" "build/"))
   (setq projectile-globally-ignored-files '("*~" "#(.+)#")))
 
@@ -437,44 +390,18 @@ URL to open in browser"
 (global-unset-key (kbd "<M-up>"))
 (global-unset-key (kbd "<M-down>"))
 
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(Linum-format "%7i ")
- '(custom-enabled-themes (quote (sanityinc-tomorrow-night)))
- '(custom-safe-themes
-   (quote
-    ("1c082c9b84449e54af757bcae23617d11f563fc9f33a832a8a2813c4d7dfb652" "04dd0236a367865e591927a3810f178e8d33c372ad5bfef48b5ce90d4b476481" "9d9fda57c476672acd8c6efeb9dc801abea906634575ad2c7688d055878e69d6" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" default)))
- '(fci-rule-character-color "#202020")
- '(fringe-mode 4 nil (fringe))
- '(jdee-db-active-breakpoint-face-colors (cons "#1c1f24" "#51afef"))
- '(jdee-db-requested-breakpoint-face-colors (cons "#1c1f24" "#7bc275"))
- '(jdee-db-spec-breakpoint-face-colors (cons "#1c1f24" "#484854"))
- '(main-line-color1 "#1E1E1E")
- '(main-line-color2 "#111111")
- '(main-line-separator-style (quote chamfer))
  '(package-selected-packages
    (quote
-    (lua-mode flycheck-rust flycheck-inline racer cargo lsp-rust neotree neo-tree use-package exec-path-from-shell go-eldoc company-go go-mode elcord slime true all-the-icons-dired company-quickhelp iedit google-c-style cquery crystal-mode ruby-end robe helm-ag ace-window telephone-line doom-themes moe-theme mode-theme spacemacs-theme nimbus-theme soothe-theme color-theme-sanityinc-tomorrow flymd lsp-javascript-typescript lsp-java ls-java dart-mode lsp-intellij company-lsp lsp-css lsp-ui lsp-mode winum winun swiper-helm helm-swiper web-mode smartparens smart-yank smart-tab rainbow-delimiters popwin parinfer multiple-cursors markdown-mode magit hungry-delete helm-gitignore gradle-mode expand-region ensime drag-stuff company-web alect-themes ac-html-csswatcher ac-html-bootstrap)))
- '(powerline-color1 "#1E1E1E")
- '(powerline-color2 "#111111"))
+    (yasnippet-snippets challenger-deep-theme lsp-clients lsp-java company-lsp lsp-ui lsp-mode use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-;; custom-set-faces was added by Custom.
-;; If you edit it by hand, you could mess it up, so be careful.
-;; Your init file should contain only one such instance.
-;; If there is more than one, they won't work right.
-
-;; custom-set-faces was added by Custom.
-;; If you edit it by hand, you could mess it up, so be careful.
-;; Your init file should contain only one such instance.
-;; If there is more than one, they won't work right.
-
-(provide 'init)
-;;; init.el ends here
