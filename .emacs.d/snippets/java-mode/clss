@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: Class
-# key: clss
-# --
-public class ${1:`(file-name-sans-extension (buffer-name))`} {
-    $0
-}

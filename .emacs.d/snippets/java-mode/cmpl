@@ -1,7 +1,0 @@
-# -*- mode: snippet -*-
-# name: cmpl
-# key: cmpl
-# --
-public CompletableFuture<${1:Type}> ${2:Name}($3) {
-    return CompletableFuture.supplyAsync(() -> ${4:Expression})
-}$0
