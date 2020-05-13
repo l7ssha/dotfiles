@@ -3,12 +3,12 @@
 currentdir="$(pwd)"
 
 echo "Linking emacs config..."
-ln -fsT "$(pwd)/emacsconfig.el" ~/.emacs.d/init.el
+ln -fsT "$currentdir/emacsconfig.el" ~/.emacs.d/init.el
 
 echo "Linking zshell config..."
-ln -sfT "$(pwd)/.zshrc" ~/.zshrc
+ln -sfT "$currentdir/.zshrc" ~/.zshrc
 
 echo "Linking .gitconfig..."
-ln -sfT "$(pwd)/.gitconfig" ~/.gitconfig
+ln -sfT "$currentdir/.gitconfig" ~/.gitconfig
 
 echo "Done. Config installed successfully."
