@@ -1,8 +1,7 @@
 [user]
-	signingkey = 9E999647258B8D43
 	autsign = true
 	name = Szymon Uglis
-	email = szymon.uglis@tuta.io
+	email = szymon@l7ssha.xyz
 	autosign = true
 [commit]
 	gpgSign = true

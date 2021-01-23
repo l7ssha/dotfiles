@@ -8,7 +8,6 @@ antigen use oh-my-zsh
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundle git
-antigen bundle heroku
 antigen bundle command-not-found
 antigen bundle archlinux
 antigen bundle bundler
@@ -21,15 +20,12 @@ antigen bundle facetframer/zshnip
 antigen bundle arzzen/calc.plugin.zsh
 
 # Load the theme.
-antigen theme agnoster
+antigen theme crunch
 
 # Tell Antigen that you're done.
 antigen apply
 
 alias cls=clear
-
-# Package managers
-alias pacman='sudo pacman'
 
 # Github
 alias 'git commit'='git commit -m'
@@ -42,8 +38,8 @@ alias la="lsd -la --group-dirs first"
 
 alias cpwd="pwd | xclip -sel CLIP"
 
-export EDITOR="emacsclient -t -a \"\""
-export VISUAL="emacsclient -nc"
+export EDITOR="nano"
+export VISUAL="vscodium"
 
 alias e="$EDITOR"
 alias ee="$VISUAL"
