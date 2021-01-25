@@ -15,20 +15,25 @@ echo "Updating system..."
 sudo pacman -Syyu
 
 echo "Installing packages from official repositories..."
-sudo pacman -S base-devel yay discord brave zerotier-one docker docker-compose \
+sudo pacman -S base-devel discord brave zerotier-one docker docker-compose \
     libreoffice-fresh obs-studio bitwarden lutris nvtop xclip zsh-autosuggestions \
     lsd --confirm
 
+parubuilddir="/tmp/paru"
+git clone https://aur.archlinux.org/paru.git "$parubuilddir"
+makepkg -si BUILDDIR="$parubuilddir"
+
 echo "Installing packages from AUR..."
-yay -S spotify-dev multimc5 intellij-idea-ultimate-edition \
-    intellij-idea-ultimate-edition-jre teams antigen-git vscodium-bin
+paru -S spotify-dev multimc5 intellij-idea-ultimate-edition \
+    intellij-idea-ultimate-edition-jre teams antigen-git vscodium-bin \
+    kwin-decoration-sierra-breeze-enhanced-git
 
 echo "Enabling and starting services..."
 sudo systemctl enable --now docker
 sudo systemctl enable --now zerotier-one
 
 echo "Adding user to necessary groups..."
-sudo usermod -a -G docker,uucp,tty,sambashare $USER
+sudo usermod -a -G docker,uucp,tty $USER
 
 echo "Changing shell to zsh..."
 chsh -s /bin/zsh $USER
