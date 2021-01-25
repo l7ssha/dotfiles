@@ -17,11 +17,11 @@ sudo pacman -Syyu
 echo "Installing packages from official repositories..."
 sudo pacman -S base-devel yay discord brave zerotier-one docker docker-compose \
     libreoffice-fresh obs-studio bitwarden lutris nvtop xclip zsh-autosuggestions \
-    devtools binutils lsd --confirm
+    lsd --confirm
 
 echo "Installing packages from AUR..."
 yay -S spotify-dev multimc5 intellij-idea-ultimate-edition \
-    intellij-idea-ultimate-edition-jre teams antigen-git vscodium
+    intellij-idea-ultimate-edition-jre teams antigen-git vscodium-bin
 
 echo "Enabling and starting services..."
 sudo systemctl enable --now docker

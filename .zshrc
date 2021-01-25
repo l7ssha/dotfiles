@@ -39,7 +39,7 @@ alias la="lsd -la --group-dirs first"
 alias cpwd="pwd | xclip -sel CLIP"
 
 export EDITOR="nano"
-export VISUAL="vscodium"
+export VISUAL="vscodium -r"
 
 alias e="$EDITOR"
 alias ee="$VISUAL"

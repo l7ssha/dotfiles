@@ -1,7 +1,5 @@
 [user]
-	autsign = true
 	name = Szymon Uglis
-	email = szymon@l7ssha.xyz
-	autosign = true
+	email = szymon.uglis2@hotmail.com
 [commit]
 	gpgSign = true
