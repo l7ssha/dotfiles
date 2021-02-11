@@ -24,7 +24,7 @@ git clone https://aur.archlinux.org/paru.git "$parubuilddir"
 makepkg -si BUILDDIR="$parubuilddir"
 
 echo "Installing packages from AUR..."
-paru -S spotify-dev multimc5 intellij-idea-ultimate-edition \
+paru -S paru-git spotify-dev multimc5 intellij-idea-ultimate-edition \
     intellij-idea-ultimate-edition-jre teams antigen-git vscodium-bin \
     kwin-decoration-sierra-breeze-enhanced-git
 
@@ -33,7 +33,7 @@ sudo systemctl enable --now docker
 sudo systemctl enable --now zerotier-one
 
 echo "Adding user to necessary groups..."
-sudo usermod -a -G docker,uucp,tty $USER
+sudo usermod -a -G docker,uucp,tty,vboxusers $USER
 
 echo "Changing shell to zsh..."
 chsh -s /bin/zsh $USER

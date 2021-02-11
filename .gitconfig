@@ -1,6 +1,8 @@
 [user]
 	name = Szymon Uglis
-	email = szymon.uglis2@hotmail.com
+	email = szymon.uglis@hotmail.com
 	signingkey = 112376C5BEE91FE2
 [commit]
 	gpgSign = true
+[core]
+	autocrlf = input
