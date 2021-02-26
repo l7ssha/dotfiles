@@ -1,0 +1,10 @@
+[Unit]
+Description=Download system updates
+
+[Timer]
+Unit=downloadupdate.service
+OnCalendar=*-*-* 22:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
