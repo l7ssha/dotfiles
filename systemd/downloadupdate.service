@@ -3,4 +3,4 @@ Description=Download system updates
 
 [Service]
 Type=simple
-ExecStart=pacman -Syyuw
+ExecStart=pacman -Syyuw --confirm

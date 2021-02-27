@@ -3,7 +3,8 @@ Description=Download system updates
 
 [Timer]
 Unit=downloadupdate.service
-OnCalendar=*-*-* 22:00:00
+OnBootSec=15min
+OnUnitActiveSec=4h
 Persistent=true
 
 [Install]
