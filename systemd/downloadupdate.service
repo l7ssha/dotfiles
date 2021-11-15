@@ -1,6 +1,0 @@
-[Unit]
-Description=Download system updates
-
-[Service]
-Type=simple
-ExecStart=pacman -Syyuw --confirm

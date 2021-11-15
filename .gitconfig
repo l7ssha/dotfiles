@@ -1,7 +1,6 @@
 [user]
 	name = Szymon Uglis
-	email = szymon.uglis@hotmail.com
-	signingkey = 112376C5BEE91FE2
+	email = szymon@l7ssha.xyz
 [commit]
 	gpgSign = true
 [core]
